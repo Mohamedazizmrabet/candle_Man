@@ -16,7 +16,7 @@ using Wickfall.World;
 namespace Wickfall.EditorTools
 {
     /// <summary>
-    /// Menu "Wickfall > Test > Build Aziz Test Scene": makes sure the data and art exist, builds the fully wired
+    /// Menu "Tools > Wickfall > Test > Build Aziz Test Scene": makes sure the data and art exist, builds the fully wired
     /// Player, Dripling and WaxPickup prefabs if they are missing, then creates a small dark test scene with
     /// the player, a box, two Driplings, a wax pickup, the camera and the HUD.
     /// </summary>
@@ -45,7 +45,7 @@ namespace Wickfall.EditorTools
         private static readonly Vector3 FlamePosition = new Vector3(0.06f, 2.19f, 0f);
         private static readonly Vector3 LightPosition = new Vector3(0.06f, 2.3f, 0f);
 
-        [MenuItem("Wickfall/Test/Build Aziz Test Scene", priority = 0)]
+        [MenuItem("Tools/Wickfall/Test/Build Aziz Test Scene", priority = 0)]
         public static void BuildAzizTestScene()
         {
             if (!EditorSceneManager.SaveCurrentModifiedScenesIfUserWantsTo()) return;
@@ -88,7 +88,7 @@ namespace Wickfall.EditorTools
             Debug.Log($"[Wickfall] Test scene saved at {AzizScenePath}. Press Play to test.");
         }
 
-        [MenuItem("Wickfall/Test/Rebuild Player Prefab", priority = 20)]
+        [MenuItem("Tools/Wickfall/Test/Rebuild Player Prefab", priority = 20)]
         public static void RebuildPlayerPrefab()
         {
             if (File.Exists(PlayerPrefabPath) &&
@@ -103,7 +103,7 @@ namespace Wickfall.EditorTools
             BuildPlayerPrefab(CreatePlaceholderSprite(SquarePath, circle: false));
         }
 
-        [MenuItem("Wickfall/Test/Rebuild Dripling and Pickup Prefabs", priority = 21)]
+        [MenuItem("Tools/Wickfall/Test/Rebuild Dripling and Pickup Prefabs", priority = 21)]
         public static void RebuildEnemyPrefabs()
         {
             if ((File.Exists(DriplingPrefabPath) || File.Exists(PickupPrefabPath)) &&

@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Wickfall.EditorTools
 {
     /// <summary>
-    /// Menu "Wickfall > Art > Import Candleman Walk Down": sets the walk sheet's import settings,
+    /// Menu "Tools > Wickfall > Art > Import Candleman Walk Down": sets the walk sheet's import settings,
     /// slices it into 4 frames of 26x56, builds the walk and idle clips and the Candleman animator.
     /// Safe to run again after replacing the PNG.
     /// </summary>
@@ -28,14 +28,14 @@ namespace Wickfall.EditorTools
         public const string ParamMoveX = "MoveX";
         public const string ParamMoveY = "MoveY";
 
-        [MenuItem("Wickfall/Art/Setup All Player Art", priority = 0)]
+        [MenuItem("Tools/Wickfall/Art/Setup All Player Art", priority = 0)]
         public static void SetupAll()
         {
             ImportWalkDown();
             FlamePlaceholderGenerator.CreatePlaceholderFlame();
         }
 
-        [MenuItem("Wickfall/Art/Import Candleman Walk Down", priority = 20)]
+        [MenuItem("Tools/Wickfall/Art/Import Candleman Walk Down", priority = 20)]
         public static void ImportWalkDown()
         {
             var frames = WickfallEditorUtil.ImportAndSliceRow(WalkDownPath, FrameWidth, FrameHeight, FrameCount, FramePrefix);

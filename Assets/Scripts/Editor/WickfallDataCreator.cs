@@ -8,7 +8,7 @@ using Wickfall.Data;
 namespace Wickfall.EditorTools
 {
     /// <summary>
-    /// Menu "Wickfall > Create Default Data": creates every config, runtime and event channel asset
+    /// Menu "Tools > Wickfall > Create Default Data": creates every config, runtime and event channel asset
     /// phase 1 needs. Assets that already exist are left untouched, so it is safe to run again.
     /// </summary>
     public static class WickfallDataCreator
@@ -18,7 +18,7 @@ namespace Wickfall.EditorTools
         private const string EventDir = "Assets/Data/EventChannels";
         private const string InputActionsPath = "Assets/Settings/Wickfall_Input.inputactions";
 
-        [MenuItem("Wickfall/Create Default Data")]
+        [MenuItem("Tools/Wickfall/Create Default Data")]
         public static void CreateDefaultData()
         {
             int created = 0;

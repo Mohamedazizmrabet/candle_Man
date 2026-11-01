@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Wickfall.EditorTools
 {
     /// <summary>
-    /// Menu "Wickfall > Art > Create Placeholder Flame": draws a tiny 3-frame flame (5x8 px each),
+    /// Menu "Tools > Wickfall > Art > Create Placeholder Flame": draws a tiny 3-frame flame (5x8 px each),
     /// imports it as pixel art and builds a flicker clip and animator. Replace the PNG with real art later.
     /// </summary>
     public static class FlamePlaceholderGenerator
@@ -28,7 +28,7 @@ namespace Wickfall.EditorTools
             new[] { "...r.", "..oo.", "..oo.", ".oyo.", "oyyyo", "oywyo", ".oyo.", "..o.." },
         };
 
-        [MenuItem("Wickfall/Art/Create Placeholder Flame", priority = 21)]
+        [MenuItem("Tools/Wickfall/Art/Create Placeholder Flame", priority = 21)]
         public static void CreatePlaceholderFlame()
         {
             WriteTexture();

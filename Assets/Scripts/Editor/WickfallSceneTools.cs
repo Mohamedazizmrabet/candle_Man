@@ -6,7 +6,7 @@ using Wickfall.UI;
 
 namespace Wickfall.EditorTools
 {
-    /// <summary>Menus under "Wickfall > Scene" that build scene objects already wired to their channels.</summary>
+    /// <summary>Menus under "Tools > Wickfall > Scene" that build scene objects already wired to their channels.</summary>
     public static class WickfallSceneTools
     {
         private const string WaxChangedPath = "Assets/Data/EventChannels/WaxChanged.asset";
@@ -15,7 +15,7 @@ namespace Wickfall.EditorTools
         private static readonly Vector2 BarSize = new Vector2(100f, 8f);
         private static readonly Vector2 BarMargin = new Vector2(12f, 12f);
 
-        [MenuItem("Wickfall/Scene/Create Wax HUD")]
+        [MenuItem("Tools/Wickfall/Scene/Create Wax HUD")]
         public static void CreateWaxHud()
         {
             var canvasGo = new GameObject("HUD", typeof(Canvas), typeof(CanvasScaler), typeof(GraphicRaycaster));
@@ -51,7 +51,7 @@ namespace Wickfall.EditorTools
 
             if (so.FindProperty("waxChanged").objectReferenceValue == null)
             {
-                Debug.LogWarning($"[Wickfall] {WaxChangedPath} not found. Run Wickfall > Create Default Data, then assign it on WaxBar.");
+                Debug.LogWarning($"[Wickfall] {WaxChangedPath} not found. Run Tools > Wickfall > Create Default Data, then assign it on WaxBar.");
             }
 
             Selection.activeGameObject = bar.gameObject;
