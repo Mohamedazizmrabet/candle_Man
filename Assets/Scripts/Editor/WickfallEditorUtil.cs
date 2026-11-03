@@ -74,6 +74,51 @@ namespace Wickfall.EditorTools
             return LoadFrames(texturePath, framePrefix, frameCount);
         }
 
+        /// <summary>
+        /// Pixel art import settings, then slices named rectangles (in texture pixels, bottom-left origin).
+        /// Re-running keeps each sprite's ID, so tiles, clips and prefabs stay linked.
+        /// </summary>
+        public static void ImportAndSliceRects(string texturePath, float pixelsPerUnit, IEnumerable<(string name, Rect rect, Vector2 pivot)> slices)
+        {
+            var importer = AssetImporter.GetAtPath(texturePath) as TextureImporter;
+            if (importer == null)
+            {
+                Debug.LogError($"[Wickfall] Texture not found: {texturePath}");
+                return;
+            }
+
+            importer.textureType = TextureImporterType.Sprite;
+            importer.spriteImportMode = SpriteImportMode.Multiple;
+            importer.spritePixelsPerUnit = pixelsPerUnit;
+            importer.filterMode = FilterMode.Point;
+            importer.textureCompression = TextureImporterCompression.Uncompressed;
+            importer.mipmapEnabled = false;
+            importer.alphaIsTransparency = true;
+            importer.wrapMode = TextureWrapMode.Clamp;
+            importer.SaveAndReimport();
+
+            var factory = new SpriteDataProviderFactories();
+            factory.Init();
+            var provider = factory.GetSpriteEditorDataProviderFromObject(importer);
+            provider.InitSpriteEditorDataProvider();
+
+            var previousIds = provider.GetSpriteRects().ToDictionary(r => r.name, r => r.spriteID);
+            var rects = slices.Select(s => new SpriteRect
+            {
+                name = s.name,
+                spriteID = previousIds.TryGetValue(s.name, out var id) ? id : GUID.Generate(),
+                rect = s.rect,
+                alignment = SpriteAlignment.Custom,
+                pivot = s.pivot,
+            }).ToArray();
+
+            provider.SetSpriteRects(rects);
+            provider.GetDataProvider<ISpriteNameFileIdDataProvider>()
+                .SetNameFileIdPairs(rects.Select(r => new SpriteNameFileIdPair(r.name, r.spriteID)));
+            provider.Apply();
+            importer.SaveAndReimport();
+        }
+
         /// <summary>Loads the sliced sprites in frame order (prefix_0, prefix_1...).</summary>
         public static Sprite[] LoadFrames(string texturePath, string framePrefix, int frameCount)
         {

@@ -1,0 +1,5122 @@
+fileFormatVersion: 2
+guid: c9d03eb3a1eac644e897c7726662ab10
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3894994040071812850
+    second: fire_strike_2_high_0
+  - first:
+      213: 3652568969726270256
+    second: fire_strike_2_high_1
+  - first:
+      213: 354946830050301286
+    second: fire_strike_2_high_2
+  - first:
+      213: 1586930601394559446
+    second: fire_strike_2_high_3
+  - first:
+      213: 9000819748762557964
+    second: fire_strike_2_high_4
+  - first:
+      213: 712321899011261225
+    second: fire_strike_2_high_5
+  - first:
+      213: -4062645870770745530
+    second: fire_strike_2_high_6
+  - first:
+      213: -5892062350572220063
+    second: fire_strike_2_high_7
+  - first:
+      213: -2666877769242086503
+    second: fire_strike_2_high_8
+  - first:
+      213: 404532679181169376
+    second: fire_strike_2_high_9
+  - first:
+      213: -5835867907675922518
+    second: fire_strike_2_high_10
+  - first:
+      213: -6875729345502425100
+    second: fire_strike_2_high_11
+  - first:
+      213: -2734099564790199650
+    second: fire_strike_2_high_12
+  - first:
+      213: 5191703506196539073
+    second: fire_strike_2_high_13
+  - first:
+      213: 7958508739296179042
+    second: fire_strike_2_high_14
+  - first:
+      213: 7737168933265154499
+    second: fire_strike_2_high_15
+  - first:
+      213: 3302208503897534850
+    second: fire_strike_2_high_16
+  - first:
+      213: -1726179729909080580
+    second: fire_strike_2_high_17
+  - first:
+      213: -3255597050653114763
+    second: fire_strike_2_high_18
+  - first:
+      213: 3526125436527266982
+    second: fire_strike_2_high_19
+  - first:
+      213: 1961962786103697460
+    second: fire_strike_2_high_20
+  - first:
+      213: 7943784824858771798
+    second: fire_strike_2_high_21
+  - first:
+      213: 5651421349668515740
+    second: fire_strike_2_high_22
+  - first:
+      213: 4767177879242232730
+    second: fire_strike_2_high_23
+  - first:
+      213: 717996052026190243
+    second: fire_strike_2_high_24
+  - first:
+      213: -2619820982490393960
+    second: fire_strike_2_high_25
+  - first:
+      213: 8219083060603647707
+    second: fire_strike_2_high_26
+  - first:
+      213: 3408910148561487714
+    second: fire_strike_2_high_27
+  - first:
+      213: 3693012300821017546
+    second: fire_strike_2_high_28
+  - first:
+      213: 4043121030428621467
+    second: fire_strike_2_high_29
+  - first:
+      213: -4500371894025955570
+    second: fire_strike_2_high_30
+  - first:
+      213: 4737269448335746100
+    second: fire_strike_2_high_31
+  - first:
+      213: 6127691617684279207
+    second: fire_strike_2_high_32
+  - first:
+      213: -2214966145882148555
+    second: fire_strike_2_high_33
+  - first:
+      213: 2730509987988324804
+    second: fire_strike_2_high_34
+  - first:
+      213: 8358892674890453048
+    second: fire_strike_2_high_35
+  - first:
+      213: 4949945758840108428
+    second: fire_strike_2_high_36
+  - first:
+      213: 187706540488716061
+    second: fire_strike_2_high_37
+  - first:
+      213: -3734963816125567301
+    second: fire_strike_2_high_38
+  - first:
+      213: 3262209003733579095
+    second: fire_strike_2_high_39
+  - first:
+      213: -702511016037269369
+    second: fire_strike_2_high_40
+  - first:
+      213: 4266717542529889358
+    second: fire_strike_2_high_41
+  - first:
+      213: 6000007768465449820
+    second: fire_strike_2_high_42
+  - first:
+      213: 7878373784095992605
+    second: fire_strike_2_high_43
+  - first:
+      213: -6665115822933879875
+    second: fire_strike_2_high_44
+  - first:
+      213: 8057356175985659028
+    second: fire_strike_2_high_45
+  - first:
+      213: 169609981239348094
+    second: fire_strike_2_high_46
+  - first:
+      213: -3529747498176179821
+    second: fire_strike_2_high_47
+  - first:
+      213: -3879364159074936055
+    second: fire_strike_2_high_48
+  - first:
+      213: -3132185031253062574
+    second: fire_strike_2_high_49
+  - first:
+      213: -4089677535787610018
+    second: fire_strike_2_high_50
+  - first:
+      213: 5605480829416181526
+    second: fire_strike_2_high_51
+  - first:
+      213: 2587883461184425970
+    second: fire_strike_2_high_52
+  - first:
+      213: 4729215203875393494
+    second: fire_strike_2_high_53
+  - first:
+      213: 7520031671646348367
+    second: fire_strike_2_high_54
+  - first:
+      213: 5387094559269203783
+    second: fire_strike_2_high_55
+  - first:
+      213: -600159642410086427
+    second: fire_strike_2_high_56
+  - first:
+      213: -4124094374169016271
+    second: fire_strike_2_high_57
+  - first:
+      213: -1353334874314751578
+    second: fire_strike_2_high_58
+  - first:
+      213: -8101476013397796639
+    second: fire_strike_2_high_59
+  - first:
+      213: 2006477213749198757
+    second: fire_strike_2_high_60
+  - first:
+      213: 1288300387237358663
+    second: fire_strike_2_high_61
+  - first:
+      213: -4367212316462746447
+    second: fire_strike_2_high_62
+  - first:
+      213: 5304178552254996776
+    second: fire_strike_2_high_63
+  - first:
+      213: 6276437969155825716
+    second: fire_strike_2_high_64
+  - first:
+      213: 3476761697171157705
+    second: fire_strike_2_high_65
+  - first:
+      213: 6188275896487489870
+    second: fire_strike_2_high_66
+  - first:
+      213: 6712326417777608159
+    second: fire_strike_2_high_67
+  - first:
+      213: -7329207914749740274
+    second: fire_strike_2_high_68
+  - first:
+      213: -7965419109467948967
+    second: fire_strike_2_high_69
+  - first:
+      213: 3226881647049128761
+    second: fire_strike_2_high_70
+  - first:
+      213: 4277762023158882367
+    second: fire_strike_2_high_71
+  - first:
+      213: 2962903617587505954
+    second: fire_strike_2_high_72
+  - first:
+      213: -1752266884123973304
+    second: fire_strike_2_high_73
+  - first:
+      213: 9172410423106495785
+    second: fire_strike_2_high_74
+  - first:
+      213: -4228584891313747267
+    second: fire_strike_2_high_75
+  - first:
+      213: -644629877036398992
+    second: fire_strike_2_high_76
+  - first:
+      213: -2164515540318427339
+    second: fire_strike_2_high_77
+  - first:
+      213: 1780668952927485389
+    second: fire_strike_2_high_78
+  - first:
+      213: 5962534059819709762
+    second: fire_strike_2_high_79
+  - first:
+      213: -8074264208620629362
+    second: fire_strike_2_high_80
+  - first:
+      213: 1393899145609401565
+    second: fire_strike_2_high_81
+  - first:
+      213: 675712561168824313
+    second: fire_strike_2_high_82
+  - first:
+      213: -1640896939172915994
+    second: fire_strike_2_high_83
+  - first:
+      213: -208442235288807252
+    second: fire_strike_2_high_84
+  - first:
+      213: 8180518470680118371
+    second: fire_strike_2_high_85
+  - first:
+      213: 212609690360300945
+    second: fire_strike_2_high_86
+  - first:
+      213: -8694521326522737918
+    second: fire_strike_2_high_87
+  - first:
+      213: 881147862756989161
+    second: fire_strike_2_high_88
+  - first:
+      213: -6298730248446066855
+    second: fire_strike_2_high_89
+  - first:
+      213: 4854347220425827585
+    second: fire_strike_2_high_90
+  - first:
+      213: 5648973478212564448
+    second: fire_strike_2_high_91
+  - first:
+      213: 9186291182189054617
+    second: fire_strike_2_high_92
+  - first:
+      213: -2221227313835656146
+    second: fire_strike_2_high_93
+  - first:
+      213: -5725321571044483221
+    second: fire_strike_2_high_94
+  - first:
+      213: 580413398689640246
+    second: fire_strike_2_high_95
+  - first:
+      213: 3495831867934590537
+    second: fire_strike_2_high_96
+  - first:
+      213: 4537218508024850690
+    second: fire_strike_2_high_97
+  - first:
+      213: 1869132591893226175
+    second: fire_strike_2_high_98
+  - first:
+      213: -5466291316902977631
+    second: fire_strike_2_high_99
+  - first:
+      213: 4005052959190882235
+    second: fire_strike_2_high_100
+  - first:
+      213: 3273560107428542076
+    second: fire_strike_2_high_101
+  - first:
+      213: 6561735242147934132
+    second: fire_strike_2_high_102
+  - first:
+      213: -2094898869355320328
+    second: fire_strike_2_high_103
+  - first:
+      213: 1836871536011492701
+    second: fire_strike_2_high_104
+  - first:
+      213: 6292740327285236771
+    second: fire_strike_2_high_105
+  - first:
+      213: 7940751388873198909
+    second: fire_strike_2_high_106
+  - first:
+      213: 661147510889452666
+    second: fire_strike_2_high_107
+  - first:
+      213: -9216933029628984764
+    second: fire_strike_2_high_108
+  - first:
+      213: -4946098249185682708
+    second: fire_strike_2_high_109
+  - first:
+      213: -3158724637624313825
+    second: fire_strike_2_high_110
+  - first:
+      213: -3064700340198034614
+    second: fire_strike_2_high_111
+  - first:
+      213: -1421933656352384236
+    second: fire_strike_2_high_112
+  - first:
+      213: -5271990750753367358
+    second: fire_strike_2_high_113
+  - first:
+      213: -4230946638718280901
+    second: fire_strike_2_high_114
+  - first:
+      213: -1578231601043331332
+    second: fire_strike_2_high_115
+  - first:
+      213: 3784785988818357540
+    second: fire_strike_2_high_116
+  - first:
+      213: -3890783420237595132
+    second: fire_strike_2_high_117
+  - first:
+      213: 3402558160859207371
+    second: fire_strike_2_high_118
+  - first:
+      213: 2987986736528643441
+    second: fire_strike_2_high_119
+  - first:
+      213: 118945931906592959
+    second: fire_strike_2_high_120
+  - first:
+      213: 549670000525578269
+    second: fire_strike_2_high_121
+  - first:
+      213: 4224349596018879981
+    second: fire_strike_2_high_122
+  - first:
+      213: -1980719748241782725
+    second: fire_strike_2_high_123
+  - first:
+      213: 855575667787526344
+    second: fire_strike_2_high_124
+  - first:
+      213: -5169673192101286449
+    second: fire_strike_2_high_125
+  - first:
+      213: -4618995909521479446
+    second: fire_strike_2_high_126
+  - first:
+      213: 233217406481228051
+    second: fire_strike_2_high_127
+  - first:
+      213: 8363469209637817724
+    second: fire_strike_2_high_128
+  - first:
+      213: 3232280767788977967
+    second: fire_strike_2_high_129
+  - first:
+      213: -656810443121520186
+    second: fire_strike_2_high_130
+  - first:
+      213: -3404435753262612064
+    second: fire_strike_2_high_131
+  - first:
+      213: -386371734127299658
+    second: fire_strike_2_high_132
+  - first:
+      213: 3823771515765163288
+    second: fire_strike_2_high_133
+  - first:
+      213: 3231618844472427818
+    second: fire_strike_2_high_134
+  - first:
+      213: -5693345246958221964
+    second: fire_strike_2_high_135
+  - first:
+      213: 9096636554745243965
+    second: fire_strike_2_high_136
+  - first:
+      213: 1836646022743925025
+    second: fire_strike_2_high_137
+  - first:
+      213: -3053185094129529697
+    second: fire_strike_2_high_138
+  - first:
+      213: -1197956833955485000
+    second: fire_strike_2_high_139
+  - first:
+      213: 6521621497233267659
+    second: fire_strike_2_high_140
+  - first:
+      213: 3686260099690307493
+    second: fire_strike_2_high_141
+  - first:
+      213: 3301269741150822236
+    second: fire_strike_2_high_142
+  - first:
+      213: 2544279666367380094
+    second: fire_strike_2_high_143
+  - first:
+      213: 5207368346608315620
+    second: fire_strike_2_high_144
+  - first:
+      213: -5390031239181937126
+    second: fire_strike_2_high_145
+  - first:
+      213: 1610765764546514165
+    second: fire_strike_2_high_146
+  - first:
+      213: 2315303437794838708
+    second: fire_strike_2_high_147
+  - first:
+      213: -6157009412453636893
+    second: fire_strike_2_high_148
+  - first:
+      213: -7420100256582350308
+    second: fire_strike_2_high_149
+  - first:
+      213: 2301419882208763648
+    second: fire_strike_2_high_150
+  - first:
+      213: 2750757847852275901
+    second: fire_strike_2_high_151
+  - first:
+      213: 7825881462978010418
+    second: fire_strike_2_high_152
+  - first:
+      213: -1333043878754208896
+    second: fire_strike_2_high_153
+  - first:
+      213: -6212448929488919767
+    second: fire_strike_2_high_154
+  - first:
+      213: 4311886210057601317
+    second: fire_strike_2_high_155
+  - first:
+      213: 4267806645744526878
+    second: fire_strike_2_high_156
+  - first:
+      213: -1679373219084130650
+    second: fire_strike_2_high_157
+  - first:
+      213: -7131473020192245332
+    second: fire_strike_2_high_158
+  - first:
+      213: -8140810595684660798
+    second: fire_strike_2_high_159
+  - first:
+      213: 7031347140284431090
+    second: fire_strike_2_high_160
+  - first:
+      213: 8392445905396376998
+    second: fire_strike_2_high_161
+  - first:
+      213: -7052809134468173052
+    second: fire_strike_2_high_162
+  - first:
+      213: 3160973236231182670
+    second: fire_strike_2_high_163
+  - first:
+      213: 3306381835944419887
+    second: fire_strike_2_high_164
+  - first:
+      213: 4575394758324806354
+    second: fire_strike_2_high_165
+  - first:
+      213: -3865141477420316127
+    second: fire_strike_2_high_166
+  - first:
+      213: 6737018672640863411
+    second: fire_strike_2_high_167
+  - first:
+      213: -2004230505760047785
+    second: fire_strike_2_high_168
+  - first:
+      213: -346707780308211985
+    second: fire_strike_2_high_169
+  - first:
+      213: 6080052462352493529
+    second: fire_strike_2_high_170
+  - first:
+      213: 202739993864895015
+    second: fire_strike_2_high_171
+  - first:
+      213: 5227614138708840343
+    second: fire_strike_2_high_172
+  - first:
+      213: -7525850854365919086
+    second: fire_strike_2_high_173
+  - first:
+      213: -8845245431903985658
+    second: fire_strike_2_high_174
+  - first:
+      213: -5234191222416658407
+    second: fire_strike_2_high_175
+  - first:
+      213: 4423303163267417720
+    second: fire_strike_2_high_176
+  - first:
+      213: -83923938941627878
+    second: fire_strike_2_high_177
+  - first:
+      213: 2603511866931394777
+    second: fire_strike_2_high_178
+  - first:
+      213: -3628140931926449278
+    second: fire_strike_2_high_179
+  - first:
+      213: -466113841893385847
+    second: fire_strike_2_high_180
+  - first:
+      213: -6806252260512468538
+    second: fire_strike_2_high_181
+  - first:
+      213: -1316385768856076183
+    second: fire_strike_2_high_182
+  - first:
+      213: -3414557857084778182
+    second: fire_strike_2_high_183
+  - first:
+      213: -3614662020883749040
+    second: fire_strike_2_high_184
+  - first:
+      213: 4399598426560955956
+    second: fire_strike_2_high_185
+  - first:
+      213: -2147200884628182291
+    second: fire_strike_2_high_186
+  - first:
+      213: 5566547571812876806
+    second: fire_strike_2_high_187
+  - first:
+      213: 2429034501358399581
+    second: fire_strike_2_high_188
+  - first:
+      213: -2957079151518886116
+    second: fire_strike_2_high_189
+  - first:
+      213: -6640359673038353031
+    second: fire_strike_2_high_190
+  - first:
+      213: 5788107701186947765
+    second: fire_strike_2_high_191
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fire_strike_2_high_0
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 6563
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09814f9e8332f9c0800000000000000
+      internalID: -3894994040071812850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_1
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 6575
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03b1626302880b230800000000000000
+      internalID: 3652568969726270256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_2
+      rect:
+        serializedVersion: 2
+        x: 3578
+        y: 6587
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6659c47e2460de400800000000000000
+      internalID: 354946830050301286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_3
+      rect:
+        serializedVersion: 2
+        x: 4597
+        y: 6598
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9d15b59f8e50610800000000000000
+      internalID: 1586930601394559446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_4
+      rect:
+        serializedVersion: 2
+        x: 5441
+        y: 6529
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e10548fd559ec70800000000000000
+      internalID: 9000819748762557964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_5
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 6551
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9234c4c3efca2e900800000000000000
+      internalID: 712321899011261225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_6
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 6486
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f8088fa159e97c0800000000000000
+      internalID: -4062645870770745530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_7
+      rect:
+        serializedVersion: 2
+        x: 2402
+        y: 6497
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16190b772803b3ea0800000000000000
+      internalID: -5892062350572220063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_8
+      rect:
+        serializedVersion: 2
+        x: 3415
+        y: 6508
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99370f07cc85dfad0800000000000000
+      internalID: -2666877769242086503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_9
+      rect:
+        serializedVersion: 2
+        x: 4428
+        y: 6519
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e271a214503d9500800000000000000
+      internalID: 404532679181169376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_10
+      rect:
+        serializedVersion: 2
+        x: 6543
+        y: 6513
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aafdfd6ce05d20fa0800000000000000
+      internalID: -5835867907675922518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_11
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 6475
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff4995e6908490a0800000000000000
+      internalID: -6875729345502425100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_12
+      rect:
+        serializedVersion: 2
+        x: 2481
+        y: 6445
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a41248ee68e0ad0800000000000000
+      internalID: -2734099564790199650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_13
+      rect:
+        serializedVersion: 2
+        x: 3496
+        y: 6474
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6aef105d2ac0840800000000000000
+      internalID: 5191703506196539073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_14
+      rect:
+        serializedVersion: 2
+        x: 4512
+        y: 6487
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263379b488d427e60800000000000000
+      internalID: 7958508739296179042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_15
+      rect:
+        serializedVersion: 2
+        x: 5527
+        y: 6500
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1257ac622ff5b60800000000000000
+      internalID: 7737168933265154499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_16
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 6413
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2813611732dc3dd20800000000000000
+      internalID: 3302208503897534850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_17
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 6429
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd1a4c6ea06b08e0800000000000000
+      internalID: -1726179729909080580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_18
+      rect:
+        serializedVersion: 2
+        x: 2320
+        y: 6423
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ef2083bbbc1d2d0800000000000000
+      internalID: -3255597050653114763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_19
+      rect:
+        serializedVersion: 2
+        x: 3329
+        y: 6432
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac4dadf6605fe030800000000000000
+      internalID: 3526125436527266982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_20
+      rect:
+        serializedVersion: 2
+        x: 4165
+        y: 6181
+        width: 304
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4302f3052ca4a3b10800000000000000
+      internalID: 1961962786103697460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_21
+      rect:
+        serializedVersion: 2
+        x: 4453
+        y: 6427
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65188d1d53efd3e60800000000000000
+      internalID: 7943784824858771798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_22
+      rect:
+        serializedVersion: 2
+        x: 5168
+        y: 6181
+        width: 280
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9fec0766c1ed6e40800000000000000
+      internalID: 5651421349668515740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_23
+      rect:
+        serializedVersion: 2
+        x: 5467
+        y: 6439
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a935559060b682240800000000000000
+      internalID: 4767177879242232730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_24
+      rect:
+        serializedVersion: 2
+        x: 6311
+        y: 6407
+        width: 79
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9672fea95d6f900800000000000000
+      internalID: 717996052026190243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_25
+      rect:
+        serializedVersion: 2
+        x: 6402
+        y: 6446
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8929b8362b684abd0800000000000000
+      internalID: -2619820982490393960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_26
+      rect:
+        serializedVersion: 2
+        x: 6481
+        y: 6451
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6f5be3f7c001270800000000000000
+      internalID: 8219083060603647707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_27
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 6178
+        width: 295
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2674b3c08b1ee4f20800000000000000
+      internalID: 3408910148561487714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_28
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 6405
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3b5950f17304330800000000000000
+      internalID: 3693012300821017546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_29
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 6180
+        width: 302
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9afb92e72d0c1830800000000000000
+      internalID: 4043121030428621467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_30
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 6414
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e075e6b3b977b81c0800000000000000
+      internalID: -4500371894025955570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_31
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 6357
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434ec51d6792eb140800000000000000
+      internalID: 4737269448335746100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_32
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 6182
+        width: 315
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7afc5357f0fe90550800000000000000
+      internalID: 6127691617684279207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_33
+      rect:
+        serializedVersion: 2
+        x: 3166
+        y: 6180
+        width: 292
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531bd25960cd241e0800000000000000
+      internalID: -2214966145882148555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_34
+      rect:
+        serializedVersion: 2
+        x: 3361
+        y: 6406
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c143b10e58b4e520800000000000000
+      internalID: 2730509987988324804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_35
+      rect:
+        serializedVersion: 2
+        x: 3439
+        y: 6416
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830d57ab990c00470800000000000000
+      internalID: 8358892674890453048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_36
+      rect:
+        serializedVersion: 2
+        x: 5443
+        y: 6400
+        width: 40
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c85bd15117db1b440800000000000000
+      internalID: 4949945758840108428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_37
+      rect:
+        serializedVersion: 2
+        x: 6163
+        y: 6182
+        width: 301
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1fe8d3aa1eda9200800000000000000
+      internalID: 187706540488716061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_38
+      rect:
+        serializedVersion: 2
+        x: 6462
+        y: 6415
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbee5eaa23eba2cc0800000000000000
+      internalID: -3734963816125567301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_39
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 6347
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755fe921ec1b54d20800000000000000
+      internalID: 3262209003733579095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_40
+      rect:
+        serializedVersion: 2
+        x: 3452
+        y: 6311
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 780cc46f3fd2046f0800000000000000
+      internalID: -702511016037269369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_41
+      rect:
+        serializedVersion: 2
+        x: 4464
+        y: 6320
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44fb67bffc663b30800000000000000
+      internalID: 4266717542529889358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_42
+      rect:
+        serializedVersion: 2
+        x: 5477
+        y: 6328
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53a7f8a64f444350800000000000000
+      internalID: 6000007768465449820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_43
+      rect:
+        serializedVersion: 2
+        x: 6489
+        y: 6337
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1baac8173b955d60800000000000000
+      internalID: 7878373784095992605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_44
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 6284
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3d03be870c083a0800000000000000
+      internalID: -6665115822933879875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_45
+      rect:
+        serializedVersion: 2
+        x: 4442
+        y: 6291
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ccc6a90ca71df60800000000000000
+      internalID: 8057356175985659028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_46
+      rect:
+        serializedVersion: 2
+        x: 5453
+        y: 6298
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7bc12a11639a5200800000000000000
+      internalID: 169609981239348094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_47
+      rect:
+        serializedVersion: 2
+        x: 6464
+        y: 6306
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39192601a51d30fc0800000000000000
+      internalID: -3529747498176179821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_48
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 5526
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90bd4ffd9dab92ac0800000000000000
+      internalID: -3879364159074936055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_49
+      rect:
+        serializedVersion: 2
+        x: 3461
+        y: 5499
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25c8d512f4e3884d0800000000000000
+      internalID: -3132185031253062574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_50
+      rect:
+        serializedVersion: 2
+        x: 4477
+        y: 5512
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e501c7103fb8e37c0800000000000000
+      internalID: -4089677535787610018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_51
+      rect:
+        serializedVersion: 2
+        x: 4555
+        y: 5512
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f0d908d1baacd40800000000000000
+      internalID: 5605480829416181526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_52
+      rect:
+        serializedVersion: 2
+        x: 5377
+        y: 5475
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff8108fb420ae320800000000000000
+      internalID: 2587883461184425970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_53
+      rect:
+        serializedVersion: 2
+        x: 5493
+        y: 5525
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df8e55eb2c81a140800000000000000
+      internalID: 4729215203875393494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_54
+      rect:
+        serializedVersion: 2
+        x: 5570
+        y: 5525
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44ea2866f48c5860800000000000000
+      internalID: 7520031671646348367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_55
+      rect:
+        serializedVersion: 2
+        x: 6389
+        y: 5486
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f2ea8a5fdc2ca40800000000000000
+      internalID: 5387094559269203783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_56
+      rect:
+        serializedVersion: 2
+        x: 6509
+        y: 5538
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef0f992cfdcba7f0800000000000000
+      internalID: -600159642410086427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_57
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 5459
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138087f540644c6c0800000000000000
+      internalID: -4124094374169016271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_58
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 5430
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a142522a1df73de0800000000000000
+      internalID: -1353334874314751578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_59
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 5472
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e893114d76c19f80800000000000000
+      internalID: -8101476013397796639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_60
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 5475
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afbf67256078db10800000000000000
+      internalID: 2006477213749198757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_61
+      rect:
+        serializedVersion: 2
+        x: 2343
+        y: 5442
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ce7416066f0e110800000000000000
+      internalID: 1288300387237358663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_62
+      rect:
+        serializedVersion: 2
+        x: 2446
+        y: 5486
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4f682698b8463c0800000000000000
+      internalID: -4367212316462746447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_63
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 5487
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821a7606a4a3c9940800000000000000
+      internalID: 5304178552254996776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_64
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 5453
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430ae4634136a1750800000000000000
+      internalID: 6276437969155825716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_65
+      rect:
+        serializedVersion: 2
+        x: 3540
+        y: 5500
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c23298c750ff3030800000000000000
+      internalID: 3476761697171157705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_66
+      rect:
+        serializedVersion: 2
+        x: 4365
+        y: 5464
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41bf36142c21e550800000000000000
+      internalID: 6188275896487489870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_67
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 5419
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5ca144059f62d50800000000000000
+      internalID: 6712326417777608159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_68
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 5463
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b3c5cbb3c694a90800000000000000
+      internalID: -7329207914749740274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_69
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 5447
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 958fd05c585257190800000000000000
+      internalID: -7965419109467948967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_70
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 5413
+        width: 51
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93b3790e2cf28cc20800000000000000
+      internalID: 3226881647049128761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_71
+      rect:
+        serializedVersion: 2
+        x: 4329
+        y: 5432
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30aa0045e9ad5b30800000000000000
+      internalID: 4277762023158882367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_72
+      rect:
+        serializedVersion: 2
+        x: 5157
+        y: 5177
+        width: 361
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22be50e54295e1920800000000000000
+      internalID: 2962903617587505954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_73
+      rect:
+        serializedVersion: 2
+        x: 6162
+        y: 5178
+        width: 370
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8492c148d82bea7e0800000000000000
+      internalID: -1752266884123973304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_74
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 5182
+        width: 320
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9256a5baea2fa4f70800000000000000
+      internalID: 9172410423106495785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_75
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 5431
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba09a2027c0155c0800000000000000
+      internalID: -4228584891313747267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_76
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 5182
+        width: 332
+        height: 269
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07644afca80dd07f0800000000000000
+      internalID: -644629877036398992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_77
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 5175
+        width: 310
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537e18c859816f1e0800000000000000
+      internalID: -2164515540318427339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_78
+      rect:
+        serializedVersion: 2
+        x: 2312
+        y: 5414
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd3fc17af436b810800000000000000
+      internalID: 1780668952927485389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_79
+      rect:
+        serializedVersion: 2
+        x: 3158
+        y: 5175
+        width: 331
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245b8b4f22d2fb250800000000000000
+      internalID: 5962534059819709762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_80
+      rect:
+        serializedVersion: 2
+        x: 3320
+        y: 5423
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8254864b7372ff80800000000000000
+      internalID: -8074264208620629362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_81
+      rect:
+        serializedVersion: 2
+        x: 4161
+        y: 5176
+        width: 342
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4d4c243ef185310800000000000000
+      internalID: 1393899145609401565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_82
+      rect:
+        serializedVersion: 2
+        x: 4551
+        y: 5388
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f7bcba8efc906900800000000000000
+      internalID: 675712561168824313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_83
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 5347
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4929b7dec5a39e0800000000000000
+      internalID: -1640896939172915994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_84
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 5357
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca81c6134e67b1df0800000000000000
+      internalID: -208442235288807252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_85
+      rect:
+        serializedVersion: 2
+        x: 2526
+        y: 5367
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3640963f43a078170800000000000000
+      internalID: 8180518470680118371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_86
+      rect:
+        serializedVersion: 2
+        x: 3539
+        y: 5377
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1954bbd036753f200800000000000000
+      internalID: 212609690360300945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_87
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 5313
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20bdd884bead65780800000000000000
+      internalID: -8694521326522737918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_88
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 5322
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8993a00577a3c00800000000000000
+      internalID: 881147862756989161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_89
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 5330
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f3d5d063a6698a0800000000000000
+      internalID: -6298730248446066855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_90
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 4563
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105e2e9d31b1e5340800000000000000
+      internalID: 4854347220425827585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_91
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 4575
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5767ae27f256e40800000000000000
+      internalID: 5648973478212564448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_92
+      rect:
+        serializedVersion: 2
+        x: 3441
+        y: 4529
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a8eadb8234c7f70800000000000000
+      internalID: 9186291182189054617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_93
+      rect:
+        serializedVersion: 2
+        x: 3578
+        y: 4587
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c3e61d68d9c21e0800000000000000
+      internalID: -2221227313835656146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_94
+      rect:
+        serializedVersion: 2
+        x: 4597
+        y: 4598
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f130d7d529b80b0800000000000000
+      internalID: -5725321571044483221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_95
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 4497
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63fe5c339ea0e0800800000000000000
+      internalID: 580413398689640246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_96
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 4551
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9464bbaef80b38030800000000000000
+      internalID: 3495831867934590537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_97
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 4508
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209262f913077fe30800000000000000
+      internalID: 4537218508024850690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_98
+      rect:
+        serializedVersion: 2
+        x: 2428
+        y: 4519
+        width: 73
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2a6e1703e70f910800000000000000
+      internalID: 1869132591893226175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_99
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 4179
+        width: 383
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af12394205d324b0800000000000000
+      internalID: -5466291316902977631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_100
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 4176
+        width: 401
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7133b527ec49730800000000000000
+      internalID: 4005052959190882235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_101
+      rect:
+        serializedVersion: 2
+        x: 2163
+        y: 4180
+        width: 412
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76fa2ad2950e6d20800000000000000
+      internalID: 3273560107428542076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_102
+      rect:
+        serializedVersion: 2
+        x: 3167
+        y: 4183
+        width: 422
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bfa36aef67ff0b50800000000000000
+      internalID: 6561735242147934132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_103
+      rect:
+        serializedVersion: 2
+        x: 4171
+        y: 4186
+        width: 296
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb65bbd39c6de2e0800000000000000
+      internalID: -2094898869355320328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_104
+      rect:
+        serializedVersion: 2
+        x: 5405
+        y: 4454
+        width: 76
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5dbdf90ee0ed7910800000000000000
+      internalID: 1836871536011492701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_105
+      rect:
+        serializedVersion: 2
+        x: 5483
+        y: 4357
+        width: 134
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324ac9fbcfd445750800000000000000
+      internalID: 6292740327285236771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_106
+      rect:
+        serializedVersion: 2
+        x: 6418
+        y: 4465
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d0a77f057333e60800000000000000
+      internalID: 7940751388873198909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_107
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 4420
+        width: 76
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7413b2882edc2900800000000000000
+      internalID: 661147510889452666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_108
+      rect:
+        serializedVersion: 2
+        x: 4415
+        y: 4267
+        width: 93
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44246623e30e61080800000000000000
+      internalID: -9216933029628984764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_109
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 4347
+        width: 137
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea1b1119ddeb5bb0800000000000000
+      internalID: -4946098249185682708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_110
+      rect:
+        serializedVersion: 2
+        x: 5175
+        y: 4189
+        width: 305
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18d02f7da4f924d0800000000000000
+      internalID: -3158724637624313825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_111
+      rect:
+        serializedVersion: 2
+        x: 5427
+        y: 4274
+        width: 93
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a433a7f274ff775d0800000000000000
+      internalID: -3064700340198034614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_112
+      rect:
+        serializedVersion: 2
+        x: 6173
+        y: 4191
+        width: 323
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b91fe8fd6444ce0800000000000000
+      internalID: -1421933656352384236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_113
+      rect:
+        serializedVersion: 2
+        x: 6439
+        y: 4282
+        width: 92
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca533a285026d6b0800000000000000
+      internalID: -5271990750753367358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_114
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 3477
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b5097d278a845c0800000000000000
+      internalID: -4230946638718280901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_115
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 3432
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6248e78bef81ae0800000000000000
+      internalID: -1578231601043331332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_116
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 3488
+        width: 77
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42dc46eddc2468430800000000000000
+      internalID: 3784785988818357540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_117
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 3444
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e32c2f719210ac0800000000000000
+      internalID: -3890783420237595132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_118
+      rect:
+        serializedVersion: 2
+        x: 2459
+        y: 3500
+        width: 78
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc69e99ae90583f20800000000000000
+      internalID: 3402558160859207371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_119
+      rect:
+        serializedVersion: 2
+        x: 2551
+        y: 3456
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1755e581b16777920800000000000000
+      internalID: 2987986736528643441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_120
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 3184
+        width: 347
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb035c2e1b496a100800000000000000
+      internalID: 118945931906592959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_121
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 3415
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10140504f1d0a700800000000000000
+      internalID: 549670000525578269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_122
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 3431
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded25c57397ef9a30800000000000000
+      internalID: 4224349596018879981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_123
+      rect:
+        serializedVersion: 2
+        x: 3498
+        y: 3447
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38827e12e11384e0800000000000000
+      internalID: -1980719748241782725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_124
+      rect:
+        serializedVersion: 2
+        x: 4159
+        y: 3176
+        width: 302
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c071fc698d9fdb00800000000000000
+      internalID: 855575667787526344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_125
+      rect:
+        serializedVersion: 2
+        x: 5163
+        y: 3180
+        width: 309
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd61f33f91a148b0800000000000000
+      internalID: -5169673192101286449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_126
+      rect:
+        serializedVersion: 2
+        x: 6167
+        y: 3183
+        width: 316
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae86df951b706efb0800000000000000
+      internalID: -4618995909521479446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_127
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 3289
+        width: 92
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31160ccdefd8c3300800000000000000
+      internalID: 233217406481228051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_128
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 3188
+        width: 292
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d01624fe2011470800000000000000
+      internalID: 8363469209637817724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_129
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 3326
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f8362ab3e5bdc20800000000000000
+      internalID: 3232280767788977967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_130
+      rect:
+        serializedVersion: 2
+        x: 2170
+        y: 3192
+        width: 300
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c199f4c16a82e6f0800000000000000
+      internalID: -656810443121520186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_131
+      rect:
+        serializedVersion: 2
+        x: 2474
+        y: 3335
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1842a48b301c0d0800000000000000
+      internalID: -3404435753262612064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_132
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 3195
+        width: 298
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3371474f453aaf0800000000000000
+      internalID: -386371734127299658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_133
+      rect:
+        serializedVersion: 2
+        x: 3486
+        y: 3344
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81580733fe3c01530800000000000000
+      internalID: 3823771515765163288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_134
+      rect:
+        serializedVersion: 2
+        x: 4498
+        y: 3354
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25cc3a973409dc20800000000000000
+      internalID: 3231618844472427818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_135
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 2186
+        width: 340
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475856b99ac2df0b0800000000000000
+      internalID: -5693345246958221964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_136
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 2185
+        width: 344
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d396c6020cebd3e70800000000000000
+      internalID: 9096636554745243965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_137
+      rect:
+        serializedVersion: 2
+        x: 2374
+        y: 2419
+        width: 93
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12129c3a3d31d7910800000000000000
+      internalID: 1836646022743925025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_138
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 2445
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c44e65558e0a5d0800000000000000
+      internalID: -3053185094129529697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_139
+      rect:
+        serializedVersion: 2
+        x: 3388
+        y: 2432
+        width: 93
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bae4d74b90006fe0800000000000000
+      internalID: -1197956833955485000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_140
+      rect:
+        serializedVersion: 2
+        x: 4402
+        y: 2446
+        width: 92
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcbd32ed234718a50800000000000000
+      internalID: 6521621497233267659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_141
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 2397
+        width: 67
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af9cbfa70a382330800000000000000
+      internalID: 3686260099690307493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_142
+      rect:
+        serializedVersion: 2
+        x: 5417
+        y: 2459
+        width: 91
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f5a05b65770dd20800000000000000
+      internalID: 3301269741150822236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_143
+      rect:
+        serializedVersion: 2
+        x: 5494
+        y: 2408
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ab31b50e81f4320800000000000000
+      internalID: 2544279666367380094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_144
+      rect:
+        serializedVersion: 2
+        x: 6163
+        y: 2177
+        width: 252
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eca332ebe9444840800000000000000
+      internalID: 5207368346608315620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_145
+      rect:
+        serializedVersion: 2
+        x: 6431
+        y: 2472
+        width: 91
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a165d444523c235b0800000000000000
+      internalID: -5390031239181937126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_146
+      rect:
+        serializedVersion: 2
+        x: 6508
+        y: 2420
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fcc72cbde69a5610800000000000000
+      internalID: 1610765764546514165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_147
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 2429
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8800da53c912020800000000000000
+      internalID: 2315303437794838708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_148
+      rect:
+        serializedVersion: 2
+        x: 2434
+        y: 2375
+        width: 84
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4e6f38f88ed8aa0800000000000000
+      internalID: -6157009412453636893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_149
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 2175
+        width: 304
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1acf984122860990800000000000000
+      internalID: -7420100256582350308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_150
+      rect:
+        serializedVersion: 2
+        x: 3450
+        y: 2386
+        width: 82
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f131e703940ff10800000000000000
+      internalID: 2301419882208763648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_151
+      rect:
+        serializedVersion: 2
+        x: 4164
+        y: 2175
+        width: 314
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db85a5040b7ac2620800000000000000
+      internalID: 2750757847852275901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_152
+      rect:
+        serializedVersion: 2
+        x: 5160
+        y: 2176
+        width: 330
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d5e1f2abd1b9c60800000000000000
+      internalID: 7825881462978010418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_153
+      rect:
+        serializedVersion: 2
+        x: 6423
+        y: 2382
+        width: 75
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083b8d0b7a3108de0800000000000000
+      internalID: -1333043878754208896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_154
+      rect:
+        serializedVersion: 2
+        x: 2158
+        y: 2186
+        width: 359
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923ae841d92f8c9a0800000000000000
+      internalID: -6212448929488919767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_155
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 2302
+        width: 69
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5218366a9a5e6db30800000000000000
+      internalID: 4311886210057601317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_156
+      rect:
+        serializedVersion: 2
+        x: 4460
+        y: 2309
+        width: 68
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1667a1588b4a3b30800000000000000
+      internalID: 4267806645744526878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_157
+      rect:
+        serializedVersion: 2
+        x: 5474
+        y: 2335
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6af2774faa1b8e0800000000000000
+      internalID: -1679373219084130650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_158
+      rect:
+        serializedVersion: 2
+        x: 6411
+        y: 2254
+        width: 91
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9b822821be70d90800000000000000
+      internalID: -7131473020192245332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_159
+      rect:
+        serializedVersion: 2
+        x: 6486
+        y: 2344
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9ca7425e7060f80800000000000000
+      internalID: -8140810595684660798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_160
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1486
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fabc1d68fc549160800000000000000
+      internalID: 7031347140284431090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_161
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 1499
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a525dbf515f77470800000000000000
+      internalID: 8392445905396376998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_162
+      rect:
+        serializedVersion: 2
+        x: 2477
+        y: 1512
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403f467a5736f1e90800000000000000
+      internalID: -7052809134468173052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_163
+      rect:
+        serializedVersion: 2
+        x: 3493
+        y: 1525
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49931a29680edb20800000000000000
+      internalID: 3160973236231182670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_164
+      rect:
+        serializedVersion: 2
+        x: 4509
+        y: 1538
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22654703c0a2ed20800000000000000
+      internalID: 3306381835944419887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_165
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1419
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2622d8a411f7f30800000000000000
+      internalID: 4575394758324806354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_166
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 1437
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12acbbffd424c5ac0800000000000000
+      internalID: -3865141477420316127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_167
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 1432
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bcaeebd9c2be7d50800000000000000
+      internalID: 6737018672640863411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_168
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1430
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75dbb2059fa8f24e0800000000000000
+      internalID: -2004230505760047785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_169
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1444
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe66dd95c1f303bf0800000000000000
+      internalID: -346707780308211985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_170
+      rect:
+        serializedVersion: 2
+        x: 2343
+        y: 1442
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db6242408fa06450800000000000000
+      internalID: 6080052462352493529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_171
+      rect:
+        serializedVersion: 2
+        x: 2487
+        y: 1437
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72af41443f640d200800000000000000
+      internalID: 202739993864895015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_172
+      rect:
+        serializedVersion: 2
+        x: 2551
+        y: 1456
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79fcc80bc573c8840800000000000000
+      internalID: 5227614138708840343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_173
+      rect:
+        serializedVersion: 2
+        x: 3354
+        y: 1453
+        width: 71
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29803f8858ece8790800000000000000
+      internalID: -7525850854365919086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_174
+      rect:
+        serializedVersion: 2
+        x: 4365
+        y: 1464
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6006730d4206f3580800000000000000
+      internalID: -8845245431903985658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_175
+      rect:
+        serializedVersion: 2
+        x: 4557
+        y: 1408
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910336da0da6c57b0800000000000000
+      internalID: -5234191222416658407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_176
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1178
+        width: 259
+        height: 252
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8768a649acab26d30800000000000000
+      internalID: 4423303163267417720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_177
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1407
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a129b374f97d5def0800000000000000
+      internalID: -83923938941627878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_178
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 1179
+        width: 277
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8b5fcbf38812420800000000000000
+      internalID: 2603511866931394777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_179
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 1422
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283287d8b0146adc0800000000000000
+      internalID: -3628140931926449278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_180
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 1373
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9895d0d2ee70889f0800000000000000
+      internalID: -466113841893385847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_181
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 1180
+        width: 289
+        height: 268
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1747051a55b81a0800000000000000
+      internalID: -6806252260512468538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_182
+      rect:
+        serializedVersion: 2
+        x: 2529
+        y: 1385
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96044f32e124bbde0800000000000000
+      internalID: -1316385768856076183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_183
+      rect:
+        serializedVersion: 2
+        x: 3166
+        y: 1181
+        width: 302
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39517758bd0d90d0800000000000000
+      internalID: -3414557857084778182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_184
+      rect:
+        serializedVersion: 2
+        x: 3543
+        y: 1396
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057e0261b0426ddc0800000000000000
+      internalID: -3614662020883749040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_185
+      rect:
+        serializedVersion: 2
+        x: 4172
+        y: 1183
+        width: 311
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436888975738e0d30800000000000000
+      internalID: 4399598426560955956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_186
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1260
+        width: 93
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea255afb2c9332e0800000000000000
+      internalID: -2147200884628182291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_187
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1354
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60248331689504d40800000000000000
+      internalID: 5566547571812876806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_188
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 1267
+        width: 94
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50b2a8620aa5b120800000000000000
+      internalID: 2429034501358399581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_189
+      rect:
+        serializedVersion: 2
+        x: 2444
+        y: 1274
+        width: 95
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17d001dd2856f6d0800000000000000
+      internalID: -2957079151518886116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_190
+      rect:
+        serializedVersion: 2
+        x: 3455
+        y: 1282
+        width: 90
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d48bb3f04b8d3a0800000000000000
+      internalID: -6640359673038353031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_strike_2_high_191
+      rect:
+        serializedVersion: 2
+        x: 4466
+        y: 1289
+        width: 92
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba63fa994d735050800000000000000
+      internalID: 5788107701186947765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fire_strike_2_high_0: -3894994040071812850
+      fire_strike_2_high_1: 3652568969726270256
+      fire_strike_2_high_10: -5835867907675922518
+      fire_strike_2_high_100: 4005052959190882235
+      fire_strike_2_high_101: 3273560107428542076
+      fire_strike_2_high_102: 6561735242147934132
+      fire_strike_2_high_103: -2094898869355320328
+      fire_strike_2_high_104: 1836871536011492701
+      fire_strike_2_high_105: 6292740327285236771
+      fire_strike_2_high_106: 7940751388873198909
+      fire_strike_2_high_107: 661147510889452666
+      fire_strike_2_high_108: -9216933029628984764
+      fire_strike_2_high_109: -4946098249185682708
+      fire_strike_2_high_11: -6875729345502425100
+      fire_strike_2_high_110: -3158724637624313825
+      fire_strike_2_high_111: -3064700340198034614
+      fire_strike_2_high_112: -1421933656352384236
+      fire_strike_2_high_113: -5271990750753367358
+      fire_strike_2_high_114: -4230946638718280901
+      fire_strike_2_high_115: -1578231601043331332
+      fire_strike_2_high_116: 3784785988818357540
+      fire_strike_2_high_117: -3890783420237595132
+      fire_strike_2_high_118: 3402558160859207371
+      fire_strike_2_high_119: 2987986736528643441
+      fire_strike_2_high_12: -2734099564790199650
+      fire_strike_2_high_120: 118945931906592959
+      fire_strike_2_high_121: 549670000525578269
+      fire_strike_2_high_122: 4224349596018879981
+      fire_strike_2_high_123: -1980719748241782725
+      fire_strike_2_high_124: 855575667787526344
+      fire_strike_2_high_125: -5169673192101286449
+      fire_strike_2_high_126: -4618995909521479446
+      fire_strike_2_high_127: 233217406481228051
+      fire_strike_2_high_128: 8363469209637817724
+      fire_strike_2_high_129: 3232280767788977967
+      fire_strike_2_high_13: 5191703506196539073
+      fire_strike_2_high_130: -656810443121520186
+      fire_strike_2_high_131: -3404435753262612064
+      fire_strike_2_high_132: -386371734127299658
+      fire_strike_2_high_133: 3823771515765163288
+      fire_strike_2_high_134: 3231618844472427818
+      fire_strike_2_high_135: -5693345246958221964
+      fire_strike_2_high_136: 9096636554745243965
+      fire_strike_2_high_137: 1836646022743925025
+      fire_strike_2_high_138: -3053185094129529697
+      fire_strike_2_high_139: -1197956833955485000
+      fire_strike_2_high_14: 7958508739296179042
+      fire_strike_2_high_140: 6521621497233267659
+      fire_strike_2_high_141: 3686260099690307493
+      fire_strike_2_high_142: 3301269741150822236
+      fire_strike_2_high_143: 2544279666367380094
+      fire_strike_2_high_144: 5207368346608315620
+      fire_strike_2_high_145: -5390031239181937126
+      fire_strike_2_high_146: 1610765764546514165
+      fire_strike_2_high_147: 2315303437794838708
+      fire_strike_2_high_148: -6157009412453636893
+      fire_strike_2_high_149: -7420100256582350308
+      fire_strike_2_high_15: 7737168933265154499
+      fire_strike_2_high_150: 2301419882208763648
+      fire_strike_2_high_151: 2750757847852275901
+      fire_strike_2_high_152: 7825881462978010418
+      fire_strike_2_high_153: -1333043878754208896
+      fire_strike_2_high_154: -6212448929488919767
+      fire_strike_2_high_155: 4311886210057601317
+      fire_strike_2_high_156: 4267806645744526878
+      fire_strike_2_high_157: -1679373219084130650
+      fire_strike_2_high_158: -7131473020192245332
+      fire_strike_2_high_159: -8140810595684660798
+      fire_strike_2_high_16: 3302208503897534850
+      fire_strike_2_high_160: 7031347140284431090
+      fire_strike_2_high_161: 8392445905396376998
+      fire_strike_2_high_162: -7052809134468173052
+      fire_strike_2_high_163: 3160973236231182670
+      fire_strike_2_high_164: 3306381835944419887
+      fire_strike_2_high_165: 4575394758324806354
+      fire_strike_2_high_166: -3865141477420316127
+      fire_strike_2_high_167: 6737018672640863411
+      fire_strike_2_high_168: -2004230505760047785
+      fire_strike_2_high_169: -346707780308211985
+      fire_strike_2_high_17: -1726179729909080580
+      fire_strike_2_high_170: 6080052462352493529
+      fire_strike_2_high_171: 202739993864895015
+      fire_strike_2_high_172: 5227614138708840343
+      fire_strike_2_high_173: -7525850854365919086
+      fire_strike_2_high_174: -8845245431903985658
+      fire_strike_2_high_175: -5234191222416658407
+      fire_strike_2_high_176: 4423303163267417720
+      fire_strike_2_high_177: -83923938941627878
+      fire_strike_2_high_178: 2603511866931394777
+      fire_strike_2_high_179: -3628140931926449278
+      fire_strike_2_high_18: -3255597050653114763
+      fire_strike_2_high_180: -466113841893385847
+      fire_strike_2_high_181: -6806252260512468538
+      fire_strike_2_high_182: -1316385768856076183
+      fire_strike_2_high_183: -3414557857084778182
+      fire_strike_2_high_184: -3614662020883749040
+      fire_strike_2_high_185: 4399598426560955956
+      fire_strike_2_high_186: -2147200884628182291
+      fire_strike_2_high_187: 5566547571812876806
+      fire_strike_2_high_188: 2429034501358399581
+      fire_strike_2_high_189: -2957079151518886116
+      fire_strike_2_high_19: 3526125436527266982
+      fire_strike_2_high_190: -6640359673038353031
+      fire_strike_2_high_191: 5788107701186947765
+      fire_strike_2_high_2: 354946830050301286
+      fire_strike_2_high_20: 1961962786103697460
+      fire_strike_2_high_21: 7943784824858771798
+      fire_strike_2_high_22: 5651421349668515740
+      fire_strike_2_high_23: 4767177879242232730
+      fire_strike_2_high_24: 717996052026190243
+      fire_strike_2_high_25: -2619820982490393960
+      fire_strike_2_high_26: 8219083060603647707
+      fire_strike_2_high_27: 3408910148561487714
+      fire_strike_2_high_28: 3693012300821017546
+      fire_strike_2_high_29: 4043121030428621467
+      fire_strike_2_high_3: 1586930601394559446
+      fire_strike_2_high_30: -4500371894025955570
+      fire_strike_2_high_31: 4737269448335746100
+      fire_strike_2_high_32: 6127691617684279207
+      fire_strike_2_high_33: -2214966145882148555
+      fire_strike_2_high_34: 2730509987988324804
+      fire_strike_2_high_35: 8358892674890453048
+      fire_strike_2_high_36: 4949945758840108428
+      fire_strike_2_high_37: 187706540488716061
+      fire_strike_2_high_38: -3734963816125567301
+      fire_strike_2_high_39: 3262209003733579095
+      fire_strike_2_high_4: 9000819748762557964
+      fire_strike_2_high_40: -702511016037269369
+      fire_strike_2_high_41: 4266717542529889358
+      fire_strike_2_high_42: 6000007768465449820
+      fire_strike_2_high_43: 7878373784095992605
+      fire_strike_2_high_44: -6665115822933879875
+      fire_strike_2_high_45: 8057356175985659028
+      fire_strike_2_high_46: 169609981239348094
+      fire_strike_2_high_47: -3529747498176179821
+      fire_strike_2_high_48: -3879364159074936055
+      fire_strike_2_high_49: -3132185031253062574
+      fire_strike_2_high_5: 712321899011261225
+      fire_strike_2_high_50: -4089677535787610018
+      fire_strike_2_high_51: 5605480829416181526
+      fire_strike_2_high_52: 2587883461184425970
+      fire_strike_2_high_53: 4729215203875393494
+      fire_strike_2_high_54: 7520031671646348367
+      fire_strike_2_high_55: 5387094559269203783
+      fire_strike_2_high_56: -600159642410086427
+      fire_strike_2_high_57: -4124094374169016271
+      fire_strike_2_high_58: -1353334874314751578
+      fire_strike_2_high_59: -8101476013397796639
+      fire_strike_2_high_6: -4062645870770745530
+      fire_strike_2_high_60: 2006477213749198757
+      fire_strike_2_high_61: 1288300387237358663
+      fire_strike_2_high_62: -4367212316462746447
+      fire_strike_2_high_63: 5304178552254996776
+      fire_strike_2_high_64: 6276437969155825716
+      fire_strike_2_high_65: 3476761697171157705
+      fire_strike_2_high_66: 6188275896487489870
+      fire_strike_2_high_67: 6712326417777608159
+      fire_strike_2_high_68: -7329207914749740274
+      fire_strike_2_high_69: -7965419109467948967
+      fire_strike_2_high_7: -5892062350572220063
+      fire_strike_2_high_70: 3226881647049128761
+      fire_strike_2_high_71: 4277762023158882367
+      fire_strike_2_high_72: 2962903617587505954
+      fire_strike_2_high_73: -1752266884123973304
+      fire_strike_2_high_74: 9172410423106495785
+      fire_strike_2_high_75: -4228584891313747267
+      fire_strike_2_high_76: -644629877036398992
+      fire_strike_2_high_77: -2164515540318427339
+      fire_strike_2_high_78: 1780668952927485389
+      fire_strike_2_high_79: 5962534059819709762
+      fire_strike_2_high_8: -2666877769242086503
+      fire_strike_2_high_80: -8074264208620629362
+      fire_strike_2_high_81: 1393899145609401565
+      fire_strike_2_high_82: 675712561168824313
+      fire_strike_2_high_83: -1640896939172915994
+      fire_strike_2_high_84: -208442235288807252
+      fire_strike_2_high_85: 8180518470680118371
+      fire_strike_2_high_86: 212609690360300945
+      fire_strike_2_high_87: -8694521326522737918
+      fire_strike_2_high_88: 881147862756989161
+      fire_strike_2_high_89: -6298730248446066855
+      fire_strike_2_high_9: 404532679181169376
+      fire_strike_2_high_90: 4854347220425827585
+      fire_strike_2_high_91: 5648973478212564448
+      fire_strike_2_high_92: 9186291182189054617
+      fire_strike_2_high_93: -2221227313835656146
+      fire_strike_2_high_94: -5725321571044483221
+      fire_strike_2_high_95: 580413398689640246
+      fire_strike_2_high_96: 3495831867934590537
+      fire_strike_2_high_97: 4537218508024850690
+      fire_strike_2_high_98: 1869132591893226175
+      fire_strike_2_high_99: -5466291316902977631
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

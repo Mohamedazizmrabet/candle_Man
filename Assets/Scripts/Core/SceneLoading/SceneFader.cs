@@ -7,8 +7,7 @@ namespace Wickfall.Core
 {
     /// <summary>
     /// Fades the screen to black, loads a scene, then fades back in. Creates itself on first use and survives
-    /// the scene change (DontDestroyOnLoad), so no setup is needed: call <see cref="FadeToScene"/>.
-    /// While fading, a full-screen overlay blocks clicks.
+    /// the scene change (DontDestroyOnLoad), so no setup is needed. While fading, a full-screen overlay blocks clicks.
     /// </summary>
     public class SceneFader : MonoBehaviour
     {
@@ -18,20 +17,32 @@ namespace Wickfall.Core
 
         public static bool IsFading { get; private set; }
 
-        /// <summary>Fades out, loads the scene at this Build Profiles index, fades in. Ignored if already fading.</summary>
-        public static void FadeToScene(int buildIndex, float fadeOutSeconds, float fadeInSeconds)
+        /// <summary>
+        /// Fades out, loads the scene by name (it must be in the Build Profiles scene list), fades in.
+        /// Returns false, and does nothing, if already fading or the scene is not in the build.
+        /// </summary>
+        public static bool FadeToScene(string sceneName, float fadeOutSeconds, float fadeInSeconds)
         {
-            if (IsFading) return;
+            if (IsFading) return false;
 
-            if (buildIndex < 0 || buildIndex >= SceneManager.sceneCountInBuildSettings)
+            if (!Application.CanStreamedLevelBeLoaded(sceneName))
             {
-                Debug.LogError($"[Wickfall] No scene at build index {buildIndex}. Add it in File > Build Profiles > Scene List.");
-                return;
+                Debug.LogError($"[Wickfall] Scene '{sceneName}' is not in File > Build Profiles > Scene List.");
+                return false;
             }
 
-            if (instance == null) instance = Create();
-            instance.StartCoroutine(instance.Run(buildIndex, fadeOutSeconds, fadeInSeconds));
+            Instance.StartCoroutine(Instance.Run(sceneName, fadeOutSeconds, fadeInSeconds));
+            return true;
         }
+
+        /// <summary>Starts fully black and fades in. Used when a scene opens on its own (the main menu at launch).</summary>
+        public static void FadeFromBlack(float seconds)
+        {
+            if (IsFading) return;
+            Instance.StartCoroutine(Instance.Reveal(seconds));
+        }
+
+        private static SceneFader Instance => instance != null ? instance : instance = Create();
 
         private static SceneFader Create()
         {
@@ -52,18 +63,19 @@ namespace Wickfall.Core
 
             var fader = go.AddComponent<SceneFader>();
             fader.overlay = overlayGo.GetComponent<Image>();
+            fader.overlay.raycastTarget = false;
             fader.SetAlpha(0f);
             return fader;
         }
 
-        private IEnumerator Run(int buildIndex, float fadeOutSeconds, float fadeInSeconds)
+        private IEnumerator Run(string sceneName, float fadeOutSeconds, float fadeInSeconds)
         {
             IsFading = true;
             overlay.raycastTarget = true;
 
             yield return Fade(0f, 1f, fadeOutSeconds);
 
-            var load = SceneManager.LoadSceneAsync(buildIndex);
+            var load = SceneManager.LoadSceneAsync(sceneName);
             while (!load.isDone) yield return null;
             // One extra frame so the new scene's Start methods run (camera snaps to the player) before revealing it.
             yield return null;
@@ -71,6 +83,15 @@ namespace Wickfall.Core
             yield return Fade(1f, 0f, fadeInSeconds);
 
             overlay.raycastTarget = false;
+            IsFading = false;
+        }
+
+        private IEnumerator Reveal(float seconds)
+        {
+            IsFading = true;
+            SetAlpha(1f);
+            yield return null;
+            yield return Fade(1f, 0f, seconds);
             IsFading = false;
         }
 
