@@ -343,7 +343,7 @@ MonoBehaviour:
   runtime: {fileID: 11400000, guid: 0a0ad3c5f0083434c8d01e3147174fb8, type: 2}
   sightBlockers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
 --- !u!114 &7367802507823124771
 MonoBehaviour:
   m_ObjectHideFlags: 0

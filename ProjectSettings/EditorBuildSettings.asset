@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/lvls/01_ChampsDeSuif/Level_01.unity
     guid: 83324de7f968a224ba1cd4a0d1e099d3
   - enabled: 1
+    path: Assets/Scenes/lvls/02_SunkenCrypt/Level_02.unity
+    guid: 65cfd08bb7d89f44d943294c2f941bfc
+  - enabled: 1
+    path: Assets/Scenes/lvls/03_DemonGate/Level_03.unity
+    guid: 173e9bb29b8dbbf4db3529489792a085
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1

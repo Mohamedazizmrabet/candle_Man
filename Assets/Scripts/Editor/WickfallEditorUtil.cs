@@ -13,6 +13,27 @@ namespace Wickfall.EditorTools
     {
         public const float PixelsPerUnit = 16f;
 
+        /// <summary>Index of the named layer, creating it in the first free user slot if needed (-1 if all are taken).</summary>
+        public static int EnsureLayer(string layerName)
+        {
+            int existing = LayerMask.NameToLayer(layerName);
+            if (existing >= 0) return existing;
+
+            var tagManager = new SerializedObject(AssetDatabase.LoadAllAssetsAtPath("ProjectSettings/TagManager.asset")[0]);
+            var layers = tagManager.FindProperty("layers");
+            for (int i = 8; i < layers.arraySize; i++)
+            {
+                var slot = layers.GetArrayElementAtIndex(i);
+                if (!string.IsNullOrEmpty(slot.stringValue)) continue;
+                slot.stringValue = layerName;
+                tagManager.ApplyModifiedPropertiesWithoutUndo();
+                return i;
+            }
+
+            Debug.LogError($"[Wickfall] No free layer slot for '{layerName}'.");
+            return -1;
+        }
+
         public static void EnsureFolder(string path)
         {
             if (AssetDatabase.IsValidFolder(path)) return;

@@ -10,7 +10,7 @@ namespace Wickfall.EditorTools
 {
     /// <summary>
     /// Imports the free 0x72 "16x16 DungeonTileset II" (CC0) sheet: slices every sprite by the names in its
-    /// tile list, makes Tile assets for the floor and walls, and builds the Dripling animation from "muddy".
+    /// tile list, makes Tile assets for the floor and walls, and builds enemy animations from its frames.
     /// The sheet is drawn at double size (8 pixels per unit, so one 16px tile = 2 units): at that scale
     /// Candleman (56px at 16 PPU) is about 1.75 tiles tall, like 0x72's own characters.
     /// </summary>
@@ -20,8 +20,6 @@ namespace Wickfall.EditorTools
         private const string ListPath = "Assets/Art/Tilesets/Dungeon_0x72/dungeon_0x72_tiles.txt";
         private const string TileDir = "Assets/Tilemaps/Dungeon_0x72";
         private const string EnemyAnimDir = "Assets/Animations/Enemies";
-        private const string DriplingClipPath = EnemyAnimDir + "/Dripling_Idle.anim";
-        private const string DriplingControllerPath = EnemyAnimDir + "/Dripling.controller";
 
         public const float PixelsPerUnit = 8f;
         public const float TileWorldSize = 16f / PixelsPerUnit; // 2 units
@@ -51,7 +49,6 @@ namespace Wickfall.EditorTools
             }
 
             WickfallEditorUtil.ImportAndSliceRects(SheetPath, PixelsPerUnit, slices);
-            BuildDriplingAnimation();
             AssetDatabase.SaveAssets();
             Debug.Log($"[Wickfall] Dungeon tileset imported: {slices.Count} sprites at {PixelsPerUnit} pixels per unit.");
         }
@@ -88,24 +85,37 @@ namespace Wickfall.EditorTools
             return tile;
         }
 
-        public static RuntimeAnimatorController DriplingController =>
-            AssetDatabase.LoadAssetAtPath<AnimatorController>(DriplingControllerPath);
-
-        public static Sprite DriplingSprite => Sprites().TryGetValue("muddy_anim_f0", out var s) ? s : null;
-
-        /// <summary>The Dripling uses 0x72's mud blob ("muddy"), 4-frame loop.</summary>
-        private static void BuildDriplingAnimation()
+        /// <summary>
+        /// A looping animation for an enemy from numbered frames of the sheet (prefix0, prefix1...),
+        /// saved as Animations/Enemies/{name}_Loop.anim with its own controller. Returns the first frame too.
+        /// </summary>
+        public static (Sprite sprite, RuntimeAnimatorController controller) EnemyArt(string enemyName, string framePrefix, int frameCount, float fps = 8f)
         {
-            var sprites = AssetDatabase.LoadAllAssetsAtPath(SheetPath).OfType<Sprite>().ToDictionary(s => s.name);
-            var frames = Enumerable.Range(0, 4)
-                .Select(i => sprites.TryGetValue($"muddy_anim_f{i}", out var s) ? s : null)
+            var sprites = Sprites();
+            var frames = Enumerable.Range(0, frameCount)
+                .Select(i => sprites.TryGetValue($"{framePrefix}{i}", out var s) ? s : null)
                 .Where(s => s != null)
                 .ToArray();
-            if (frames.Length == 0) return;
+            if (frames.Length == 0)
+            {
+                Debug.LogWarning($"[Wickfall] No frames named {framePrefix}0.. in the dungeon sheet.");
+                return (null, null);
+            }
 
-            var clip = WickfallEditorUtil.CreateSpriteClip(DriplingClipPath, frames, 8f);
-            var controller = WickfallEditorUtil.LoadOrCreateController(DriplingControllerPath, out bool created);
-            if (created) controller.layers[0].stateMachine.AddState("Idle").motion = clip;
+            var clip = WickfallEditorUtil.CreateSpriteClip($"{EnemyAnimDir}/{enemyName}_Loop.anim", frames, fps);
+            var controller = WickfallEditorUtil.LoadOrCreateController($"{EnemyAnimDir}/{enemyName}.controller", out bool created);
+            if (created) controller.layers[0].stateMachine.AddState("Loop").motion = clip;
+            return (frames[0], controller);
+        }
+
+        /// <summary>Numbered frames of the sheet (prefix0, prefix1...), for props that animate with SpriteFlipbook.</summary>
+        public static Sprite[] Frames(string framePrefix, int frameCount)
+        {
+            var sprites = Sprites();
+            return Enumerable.Range(0, frameCount)
+                .Select(i => sprites.TryGetValue($"{framePrefix}{i}", out var s) ? s : null)
+                .Where(s => s != null)
+                .ToArray();
         }
     }
 }

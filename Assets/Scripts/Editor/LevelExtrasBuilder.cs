@@ -18,6 +18,7 @@ namespace Wickfall.EditorTools
     {
         public const string BrazierPrefabPath = "Assets/Prefabs/Props/Brazier.prefab";
         private const string PanelSpritePath = "Assets/Art/UI/Menus/MainMenu_Panel.png";
+        private const string BossChannelPath = "Assets/Data/EventChannels/BossStatusChanged.asset";
 
         private static readonly Color Cream = new Color32(249, 250, 242, 255);
 
@@ -118,6 +119,92 @@ namespace Wickfall.EditorTools
             group.alpha = 0f;
             group.interactable = false;
             group.blocksRaycasts = false;
+        }
+
+        /// <summary>
+        /// Adds a BossStatusReporter to an enemy prefab so the boss health bar shows its name and health.
+        /// Edits the prefab in place; safe to run again.
+        /// </summary>
+        public static void MakeBoss(string prefabPath, string bossName)
+        {
+            var root = PrefabUtility.LoadPrefabContents(prefabPath);
+            try
+            {
+                var reporter = root.GetComponent<Wickfall.Enemies.BossStatusReporter>();
+                if (reporter == null) reporter = root.AddComponent<Wickfall.Enemies.BossStatusReporter>();
+                var so = new SerializedObject(reporter);
+                so.FindProperty("bossName").stringValue = bossName;
+                so.FindProperty("damageable").objectReferenceValue = root.GetComponent<Wickfall.Combat.Damageable>();
+                so.FindProperty("perception").objectReferenceValue = root.GetComponent<Wickfall.Enemies.EnemyPerception>();
+                so.FindProperty("bossStatusChanged").objectReferenceValue = AssetDatabase.LoadAssetAtPath<BossStatusEventChannelSO>(BossChannelPath);
+                so.ApplyModifiedPropertiesWithoutUndo();
+                PrefabUtility.SaveAsPrefabAsset(root, prefabPath);
+            }
+            finally
+            {
+                PrefabUtility.UnloadPrefabContents(root);
+            }
+        }
+
+        /// <summary>Boss health bar at the bottom of the screen: name, dark frame, pale trail, red fill. Hidden until a boss engages.</summary>
+        public static void CreateBossHealthBar()
+        {
+            var canvasGo = new GameObject("BossHealthBar", typeof(Canvas), typeof(CanvasScaler), typeof(GraphicRaycaster));
+            var canvas = canvasGo.GetComponent<Canvas>();
+            canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+            canvas.sortingOrder = 50; // above the HUD, below the pause menu
+            var scaler = canvasGo.GetComponent<CanvasScaler>();
+            scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
+            scaler.referenceResolution = new Vector2(1376f, 768f);
+            scaler.matchWidthOrHeight = 0.5f;
+
+            var root = MainMenuBuilder.NewRect("Bar", canvasGo.transform);
+            root.anchorMin = root.anchorMax = new Vector2(0.5f, 0f);
+            root.pivot = new Vector2(0.5f, 0f);
+            root.anchoredPosition = new Vector2(0f, 56f);
+            root.sizeDelta = new Vector2(720f, 20f);
+            var group = root.gameObject.AddComponent<CanvasGroup>();
+            group.blocksRaycasts = false;
+            group.interactable = false;
+            group.alpha = 0f;
+
+            var font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+            var label = MainMenuBuilder.NewText("Name", root, font, "Demon Lord", TextAnchor.LowerCenter, 30);
+            label.rectTransform.anchorMin = new Vector2(0f, 1f);
+            label.rectTransform.anchorMax = new Vector2(1f, 1f);
+            label.rectTransform.pivot = new Vector2(0.5f, 0f);
+            label.rectTransform.anchoredPosition = new Vector2(0f, 6f);
+            label.rectTransform.sizeDelta = new Vector2(0f, 36f);
+
+            var frame = MainMenuBuilder.NewImage("Frame", root, null, raycast: false);
+            frame.color = new Color(0.08f, 0.06f, 0.06f, 0.95f);
+            MainMenuBuilder.Stretch(frame.rectTransform);
+            frame.rectTransform.offsetMin = new Vector2(-4f, -4f);
+            frame.rectTransform.offsetMax = new Vector2(4f, 4f);
+            frame.gameObject.AddComponent<Outline>().effectColor = new Color(0.55f, 0.42f, 0.3f, 1f);
+
+            var trail = BarPart("Trail", root, new Color(0.95f, 0.85f, 0.75f, 0.85f));
+            var fill = BarPart("Fill", root, new Color(0.72f, 0.12f, 0.1f, 1f));
+
+            var bar = canvasGo.AddComponent<BossHealthBar>();
+            var so = new SerializedObject(bar);
+            so.FindProperty("bossStatusChanged").objectReferenceValue = AssetDatabase.LoadAssetAtPath<BossStatusEventChannelSO>(BossChannelPath);
+            so.FindProperty("group").objectReferenceValue = group;
+            so.FindProperty("nameLabel").objectReferenceValue = label;
+            so.FindProperty("fill").objectReferenceValue = fill;
+            so.FindProperty("trail").objectReferenceValue = trail;
+            so.ApplyModifiedPropertiesWithoutUndo();
+        }
+
+        /// <summary>Fills the bar, with its pivot on the left so scaling X shrinks it toward the left.</summary>
+        private static RectTransform BarPart(string name, RectTransform parent, Color color)
+        {
+            var image = MainMenuBuilder.NewImage(name, parent, null, raycast: false);
+            image.color = color;
+            var rect = image.rectTransform;
+            MainMenuBuilder.Stretch(rect);
+            rect.pivot = new Vector2(0f, 0.5f);
+            return rect;
         }
 
         private static Button Entry(RectTransform panel, Font font, string label, float y)

@@ -315,27 +315,38 @@ namespace Wickfall.EditorTools
 
         internal static GameObject BuildDriplingPrefab(Sprite circle, Sprite square, GameObject pickupPrefab)
         {
-            var config = Load<EnemyConfigSO>(DataEnemies + "DriplingConfig.asset");
-            var root = new GameObject("Dripling");
+            var art = DungeonArtImporter.EnemyArt("Dripling", "muddy_anim_f", 4);
+            return BuildEnemyPrefab("Dripling", Load<EnemyConfigSO>(DataEnemies + "DriplingConfig.asset"),
+                art.sprite, art.controller, circle, square, pickupPrefab, DriplingPrefabPath);
+        }
+
+        /// <summary>
+        /// A melee enemy: physics body at its feet, animated body sprite, telegraphed attack hitbox, health,
+        /// perception (blocked by walls), brain and wax drop. All tuning comes from the EnemyConfig.
+        /// <paramref name="size"/> scales the collider and attack reach for big enemies (2 = boss).
+        /// </summary>
+        internal static GameObject BuildEnemyPrefab(string enemyName, EnemyConfigSO config, Sprite bodySprite,
+            RuntimeAnimatorController animation, Sprite circle, Sprite square, GameObject pickupPrefab, string prefabPath, float size = 1f)
+        {
+            var root = new GameObject(enemyName);
 
             var body = root.AddComponent<Rigidbody2D>();
             body.gravityScale = 0f;
             body.freezeRotation = true;
             body.interpolation = RigidbodyInterpolation2D.Interpolate;
 
-            // Feet-level collider (the root sits at the Dripling's feet).
+            // Feet-level collider (the root sits at the enemy's feet).
             var feet = root.AddComponent<CircleCollider2D>();
-            feet.radius = 0.6f;
-            feet.offset = new Vector2(0f, 0.5f);
+            feet.radius = 0.6f * size;
+            feet.offset = new Vector2(0f, 0.5f * size);
 
-            // Body: 0x72's mud blob, animated, standing on the root's position.
+            // Body: animated 0x72 sprite, standing on the root's position.
             var bodyGo = Child(root, "Body", Vector3.zero);
             var bodyRenderer = bodyGo.AddComponent<SpriteRenderer>();
-            var mudBlob = DungeonArtImporter.DriplingSprite;
-            if (mudBlob != null)
+            if (bodySprite != null)
             {
-                bodyRenderer.sprite = mudBlob;
-                bodyGo.AddComponent<Animator>().runtimeAnimatorController = DungeonArtImporter.DriplingController;
+                bodyRenderer.sprite = bodySprite;
+                if (animation != null) bodyGo.AddComponent<Animator>().runtimeAnimatorController = animation;
             }
             else
             {
@@ -345,15 +356,15 @@ namespace Wickfall.EditorTools
                 bodyRenderer.color = new Color(0.85f, 0.8f, 0.69f);
             }
 
-            var pivot = Child(root, "AttackPivot", new Vector3(0f, 0.5f, 0f));
-            var hitboxGo = Child(pivot, "AttackHitbox", new Vector3(1f, 0f, 0f));
+            var pivot = Child(root, "AttackPivot", new Vector3(0f, 0.5f * size, 0f));
+            var hitboxGo = Child(pivot, "AttackHitbox", new Vector3(size, 0f, 0f));
             var hitboxCollider = hitboxGo.AddComponent<BoxCollider2D>();
             hitboxCollider.isTrigger = true;
-            hitboxCollider.size = new Vector2(1f, 1f);
+            hitboxCollider.size = new Vector2(size, size);
             var hitbox = hitboxGo.AddComponent<Hitbox>();
             SetEnum(hitbox, "team", (int)Team.Enemy);
             var preview = Child(hitboxGo, "StrikePreview", Vector3.zero);
-            preview.transform.localScale = new Vector3(1f, 1f, 1f);
+            preview.transform.localScale = new Vector3(size, size, 1f);
             var previewRenderer = preview.AddComponent<SpriteRenderer>();
             previewRenderer.sprite = square;
             previewRenderer.color = new Color(1f, 0.2f, 0.15f, 0.4f);
@@ -367,6 +378,14 @@ namespace Wickfall.EditorTools
             var perception = root.AddComponent<EnemyPerception>();
             SetRef(perception, "config", config);
             SetRef(perception, "runtime", Load<PlayerRuntimeSO>(DataPlayer + "PlayerRuntime.asset"));
+            // Walls block sight: an enemy can't spot the player through a wall.
+            int wallsLayer = WickfallEditorUtil.EnsureLayer("Walls");
+            if (wallsLayer >= 0)
+            {
+                var perceptionSo = new SerializedObject(perception);
+                perceptionSo.FindProperty("sightBlockers").intValue = 1 << wallsLayer;
+                perceptionSo.ApplyModifiedPropertiesWithoutUndo();
+            }
 
             var brain = root.AddComponent<EnemyBrain>();
             SetRef(brain, "config", config);
@@ -381,7 +400,7 @@ namespace Wickfall.EditorTools
             SetRef(dropper, "damageable", damageable);
             SetRef(dropper, "pickupPrefab", pickupPrefab != null ? pickupPrefab.GetComponent<WaxPickup>() : null);
 
-            return SavePrefab(root, DriplingPrefabPath);
+            return SavePrefab(root, prefabPath);
         }
 
         private static GameObject SavePrefab(GameObject root, string path)

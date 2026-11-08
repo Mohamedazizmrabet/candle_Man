@@ -39,6 +39,8 @@ namespace Wickfall.EditorTools
                 "Raised by WaxSystem when wax reaches 0. PlayerController switches to the extinguished state.");
             CreateChannel<VoidEventChannelSO>("PlayerRespawned", ref created,
                 "Raised by PlayerController after moving the player to the respawn point. WaxSystem refills to max.");
+            CreateChannel<BossStatusEventChannelSO>("BossStatusChanged", ref created,
+                "Raised by a boss (BossStatusReporter) when its health or engagement changes. The boss health bar listens.");
             CreateChannel<Vector3EventChannelSO>("BrazierRested", ref created,
                 "Raised by a Brazier with its respawn position. WaxSystem refills, PlayerController saves the respawn point.");
 
