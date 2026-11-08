@@ -24,7 +24,7 @@ namespace Wickfall.EditorTools
         private const string ArtDir = "Assets/Art/UI/Menus";
         private const string SceneDir = "Assets/Scenes/MainMenu";
         private const string ScenePath = SceneDir + "/MainMenu.unity";
-        private const string LevelOnePath = "Assets/Scenes/Regions/01_ChampsDeSuif/Level_01.unity";
+        private const string LevelOnePath = "Assets/Scenes/lvls/01_ChampsDeSuif/Level_01.unity";
         private const string LevelTemplatePath = "Assets/Test/Aziz/Aziz_TestScene.unity";
         private const string UiActionsPath = "Assets/Settings/InputSystem_Actions.inputactions";
 
@@ -712,7 +712,7 @@ namespace Wickfall.EditorTools
         /// Unity's standard color tint: the row's label turns amber while selected with the keyboard or a click.
         /// Mouse hover changes nothing.
         /// </summary>
-        private static void ShowSelectedInAmber(Selectable selectable, Graphic label)
+        internal static void ShowSelectedInAmber(Selectable selectable, Graphic label)
         {
             selectable.transition = Selectable.Transition.ColorTint;
             selectable.targetGraphic = label;
@@ -726,7 +726,7 @@ namespace Wickfall.EditorTools
         }
 
         /// <summary>Up and down move between the entries and wrap around; left and right are left to sliders.</summary>
-        private static void ChainVertically(List<Selectable> items)
+        internal static void ChainVertically(List<Selectable> items)
         {
             for (int i = 0; i < items.Count; i++)
             {
@@ -739,7 +739,7 @@ namespace Wickfall.EditorTools
             }
         }
 
-        private static void AddShadow(GameObject go)
+        internal static void AddShadow(GameObject go)
         {
             var shadow = go.AddComponent<Shadow>();
             shadow.effectColor = new Color(0f, 0f, 0f, 0.85f);
@@ -753,7 +753,7 @@ namespace Wickfall.EditorTools
             fitter.aspectRatio = ImageWidth / (float)ImageHeight;
         }
 
-        private static Text NewText(string name, Transform parent, Font font, string value, TextAnchor anchor, int size)
+        internal static Text NewText(string name, Transform parent, Font font, string value, TextAnchor anchor, int size)
         {
             var text = NewRect(name, parent).gameObject.AddComponent<Text>();
             text.font = font;
@@ -770,7 +770,7 @@ namespace Wickfall.EditorTools
         }
 
         /// <summary>Uses the template's "UI" action map (Navigate, Submit, Cancel, Click...) for menu navigation.</summary>
-        private static void AssignUiActions(InputSystemUIInputModule module)
+        internal static void AssignUiActions(InputSystemUIInputModule module)
         {
             var asset = AssetDatabase.LoadAssetAtPath<InputActionAsset>(UiActionsPath);
             var references = AssetDatabase.LoadAllAssetsAtPath(UiActionsPath).OfType<InputActionReference>().ToList();
@@ -836,7 +836,7 @@ namespace Wickfall.EditorTools
             rect.offsetMax = Vector2.zero;
         }
 
-        private static void Stretch(RectTransform rect)
+        internal static void Stretch(RectTransform rect)
         {
             rect.anchorMin = Vector2.zero;
             rect.anchorMax = Vector2.one;
@@ -844,14 +844,14 @@ namespace Wickfall.EditorTools
             rect.offsetMax = Vector2.zero;
         }
 
-        private static RectTransform NewRect(string name, Transform parent)
+        internal static RectTransform NewRect(string name, Transform parent)
         {
             var go = new GameObject(name, typeof(RectTransform));
             go.transform.SetParent(parent, false);
             return (RectTransform)go.transform;
         }
 
-        private static Image NewImage(string name, Transform parent, Sprite sprite, bool raycast)
+        internal static Image NewImage(string name, Transform parent, Sprite sprite, bool raycast)
         {
             var image = NewRect(name, parent).gameObject.AddComponent<Image>();
             image.sprite = sprite;

@@ -10,37 +10,42 @@ namespace Wickfall.EditorTools
 {
     /// <summary>
     /// Menu "Tools > Wickfall > Level > Build Level 01": builds Level_01 as a dark dungeon room from the 0x72 tileset
-    /// (floor, walls with colliders, columns, crates, banners), with the player, Driplings, a wax drop, camera and HUD.
+    /// (floor, walls with colliders, columns, crates, banners), with the player, Driplings, braziers, wax drops,
+    /// camera, HUD and pause menu.
     /// Edit <see cref="Room"/> below to move things around, then run the menu again.
     /// </summary>
     public static class LevelOneBuilder
     {
-        private const string ScenePath = "Assets/Scenes/Regions/01_ChampsDeSuif/Level_01.unity";
+        private const string ScenePath = "Assets/Scenes/lvls/01_ChampsDeSuif/Level_01.unity";
         private const string MainMenuPath = "Assets/Scenes/MainMenu/MainMenu.unity";
         private const string Renderer2DPath = "Assets/Settings/Renderer2D.asset";
 
         // The room's inside, top row first. One character = one 2x2-unit tile. Walls are added all around.
-        //   P player start   D Dripling   w wax drop   C column   x crate   k skull   (space) empty floor
+        //   P player start   D Dripling   B brazier (checkpoint)   w wax drop
+        //   C column   x crate   k skull   (space) empty floor
+        // Every row must have the same length.
         private static readonly string[] Room =
         {
-            "                      ",
-            "  C      D        C   ",
-            "                      ",
-            "                  x   ",
-            "      k               ",
-            "  C               C   ",
-            "                      ",
-            "           w          ",
-            "    D                 ",
-            "                    k ",
-            "          P           ",
-            "                      ",
+            "                              ",
+            "  C       C       C       C   ",
+            "                    D       x ",
+            "     k        D               ",
+            "                         w    ",
+            "  C    x  C       C    D  C   ",
+            "                              ",
+            "        w              k      ",
+            "  C       C   D   C       C   ",
+            "                         B    ",
+            "             k                ",
+            "  x    w                      ",
+            "   B  P                    x  ",
+            "                              ",
         };
 
         // Banners hanging on the top wall, by column (0 = first inside column).
         private static readonly (int column, string sprite)[] Banners =
         {
-            (3, "wall_banner_red"), (8, "wall_banner_green"), (14, "wall_banner_red"), (19, "wall_banner_green"),
+            (3, "wall_banner_red"), (9, "wall_banner_green"), (15, "wall_banner_red"), (21, "wall_banner_green"), (27, "wall_banner_red"),
         };
 
         private const int FloorOrder = -20;
@@ -62,23 +67,32 @@ namespace Wickfall.EditorTools
                 return;
             }
 
+            if (Room.Any(row => row.Length != Width))
+            {
+                Debug.LogError("[Wickfall] Every row of LevelOneBuilder.Room must have the same length.");
+                return;
+            }
+
             UseYSorting();
 
             var square = TestSceneBuilder.CreatePlaceholderSprite(TestSceneBuilder.SquarePath, circle: false);
             var circle = TestSceneBuilder.CreatePlaceholderSprite(TestSceneBuilder.CirclePath, circle: true);
             var playerPrefab = TestSceneBuilder.LoadOrBuildPlayerPrefab(square);
+            PlayerSwordSetup.AddSword(TestSceneBuilder.PlayerPrefabPath);
             var pickupPrefab = AssetDatabase.LoadAssetAtPath<GameObject>(TestSceneBuilder.PickupPrefabPath)
                                ?? TestSceneBuilder.BuildPickupPrefab(circle);
             // Always rebuilt here so the Dripling gets the dungeon art.
             var driplingPrefab = TestSceneBuilder.BuildDriplingPrefab(circle, square, pickupPrefab);
+            var brazierPrefab = LevelExtrasBuilder.BuildBrazierPrefab();
 
             var scene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);
             TestSceneBuilder.CreateCamera();
             TestSceneBuilder.CreateGlobalLight();
 
             BuildRoom(sprites);
-            PlaceThings(sprites, playerPrefab, driplingPrefab, pickupPrefab);
+            PlaceThings(sprites, playerPrefab, driplingPrefab, pickupPrefab, brazierPrefab);
             WickfallSceneTools.CreateWaxHud();
+            LevelExtrasBuilder.CreatePauseMenu();
 
             WickfallEditorUtil.EnsureFolder(Path.GetDirectoryName(ScenePath).Replace('\\', '/'));
             EditorSceneManager.SaveScene(scene, ScenePath);
@@ -136,7 +150,7 @@ namespace Wickfall.EditorTools
             }
         }
 
-        private static void PlaceThings(Dictionary<string, Sprite> sprites, GameObject player, GameObject dripling, GameObject pickup)
+        private static void PlaceThings(Dictionary<string, Sprite> sprites, GameObject player, GameObject dripling, GameObject pickup, GameObject brazier)
         {
             var props = new GameObject("Props").transform;
             var enemies = new GameObject("Enemies").transform;
@@ -157,6 +171,9 @@ namespace Wickfall.EditorTools
                             break;
                         case 'D':
                             Spawn(dripling, feet, enemies, $"Dripling ({++driplingCount})");
+                            break;
+                        case 'B':
+                            Spawn(brazier, feet, props, "Brazier");
                             break;
                         case 'w':
                             Spawn(pickup, CellCenter(cell.x, cell.y), props, "WaxPickup");

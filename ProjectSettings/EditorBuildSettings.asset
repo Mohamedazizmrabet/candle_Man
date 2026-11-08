@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu/MainMenu.unity
     guid: dfea198fe51cde14aa59258e671f661e
   - enabled: 1
-    path: Assets/Scenes/Regions/01_ChampsDeSuif/Level_01.unity
+    path: Assets/Scenes/lvls/01_ChampsDeSuif/Level_01.unity
     guid: 83324de7f968a224ba1cd4a0d1e099d3
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity

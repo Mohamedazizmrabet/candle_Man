@@ -274,7 +274,9 @@ namespace Wickfall.EditorTools
             SetRef(debugKeys, "playerController", controller);
             SetRef(debugKeys, "waxGainRequested", waxGain);
 
-            return SavePrefab(root, PlayerPrefabPath);
+            var prefab = SavePrefab(root, PlayerPrefabPath);
+            PlayerSwordSetup.AddSword(PlayerPrefabPath);
+            return AssetDatabase.LoadAssetAtPath<GameObject>(PlayerPrefabPath) ?? prefab;
         }
 
         // ---------- Wax pickup prefab ----------
