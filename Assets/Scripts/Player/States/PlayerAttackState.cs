@@ -1,3 +1,5 @@
+using UnityEngine;
+
 namespace Wickfall.Player
 {
     /// <summary>
@@ -12,6 +14,9 @@ namespace Wickfall.Player
         private float elapsed;
 
         public PlayerAttackState(PlayerController player) : base(player) { }
+
+        /// <summary>0 at the start of the swing, 1 at the end.</summary>
+        public float Progress => Mathf.Clamp01(elapsed / player.Config.attackDuration);
 
         public override void Enter()
         {

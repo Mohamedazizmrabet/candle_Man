@@ -13,6 +13,27 @@ namespace Wickfall.EditorTools
     {
         public const float PixelsPerUnit = 16f;
 
+        /// <summary>Index of the named layer, creating it in the first free user slot if needed (-1 if all are taken).</summary>
+        public static int EnsureLayer(string layerName)
+        {
+            int existing = LayerMask.NameToLayer(layerName);
+            if (existing >= 0) return existing;
+
+            var tagManager = new SerializedObject(AssetDatabase.LoadAllAssetsAtPath("ProjectSettings/TagManager.asset")[0]);
+            var layers = tagManager.FindProperty("layers");
+            for (int i = 8; i < layers.arraySize; i++)
+            {
+                var slot = layers.GetArrayElementAtIndex(i);
+                if (!string.IsNullOrEmpty(slot.stringValue)) continue;
+                slot.stringValue = layerName;
+                tagManager.ApplyModifiedPropertiesWithoutUndo();
+                return i;
+            }
+
+            Debug.LogError($"[Wickfall] No free layer slot for '{layerName}'.");
+            return -1;
+        }
+
         public static void EnsureFolder(string path)
         {
             if (AssetDatabase.IsValidFolder(path)) return;
@@ -72,6 +93,51 @@ namespace Wickfall.EditorTools
             importer.SaveAndReimport();
 
             return LoadFrames(texturePath, framePrefix, frameCount);
+        }
+
+        /// <summary>
+        /// Pixel art import settings, then slices named rectangles (in texture pixels, bottom-left origin).
+        /// Re-running keeps each sprite's ID, so tiles, clips and prefabs stay linked.
+        /// </summary>
+        public static void ImportAndSliceRects(string texturePath, float pixelsPerUnit, IEnumerable<(string name, Rect rect, Vector2 pivot)> slices)
+        {
+            var importer = AssetImporter.GetAtPath(texturePath) as TextureImporter;
+            if (importer == null)
+            {
+                Debug.LogError($"[Wickfall] Texture not found: {texturePath}");
+                return;
+            }
+
+            importer.textureType = TextureImporterType.Sprite;
+            importer.spriteImportMode = SpriteImportMode.Multiple;
+            importer.spritePixelsPerUnit = pixelsPerUnit;
+            importer.filterMode = FilterMode.Point;
+            importer.textureCompression = TextureImporterCompression.Uncompressed;
+            importer.mipmapEnabled = false;
+            importer.alphaIsTransparency = true;
+            importer.wrapMode = TextureWrapMode.Clamp;
+            importer.SaveAndReimport();
+
+            var factory = new SpriteDataProviderFactories();
+            factory.Init();
+            var provider = factory.GetSpriteEditorDataProviderFromObject(importer);
+            provider.InitSpriteEditorDataProvider();
+
+            var previousIds = provider.GetSpriteRects().ToDictionary(r => r.name, r => r.spriteID);
+            var rects = slices.Select(s => new SpriteRect
+            {
+                name = s.name,
+                spriteID = previousIds.TryGetValue(s.name, out var id) ? id : GUID.Generate(),
+                rect = s.rect,
+                alignment = SpriteAlignment.Custom,
+                pivot = s.pivot,
+            }).ToArray();
+
+            provider.SetSpriteRects(rects);
+            provider.GetDataProvider<ISpriteNameFileIdDataProvider>()
+                .SetNameFileIdPairs(rects.Select(r => new SpriteNameFileIdPair(r.name, r.spriteID)));
+            provider.Apply();
+            importer.SaveAndReimport();
         }
 
         /// <summary>Loads the sliced sprites in frame order (prefix_0, prefix_1...).</summary>

@@ -83,6 +83,12 @@ namespace Wickfall.Player
 
         public string CurrentStateName => machine.CurrentName;
 
+        /// <summary>Direction of the current (or last) swing, set when it starts.</summary>
+        public Vector2 AttackDirection { get; private set; } = Vector2.down;
+
+        /// <summary>0 to 1 through the current swing, or -1 when not attacking. Drives the sword animation.</summary>
+        public float AttackProgress => machine.Current == Attack ? Attack.Progress : -1f;
+
         private void Reset()
         {
             waxSystem = GetComponent<WaxSystem>();
@@ -218,6 +224,7 @@ namespace Wickfall.Player
         /// <summary>Turns the attack pivot toward the facing direction. Called when a swing starts.</summary>
         public void AimAttack()
         {
+            AttackDirection = Facing;
             if (attackPivot == null) return;
             float angle = Mathf.Atan2(Facing.y, Facing.x) * Mathf.Rad2Deg;
             attackPivot.localRotation = Quaternion.Euler(0f, 0f, angle);

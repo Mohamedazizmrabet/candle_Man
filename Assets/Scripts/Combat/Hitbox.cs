@@ -16,7 +16,7 @@ namespace Wickfall.Combat
         [SerializeField] private FlameType flame = FlameType.Amber;
         [Tooltip("0 = each target once per activation. Above 0 = hit the same target again after this many seconds.")]
         [SerializeField, Min(0f)] private float rehitInterval;
-        [Tooltip("Where the hit comes from, for knockback. Empty = the root object.")]
+        [Tooltip("Where the hit comes from, for knockback. Empty = the body this hitbox belongs to (its Rigidbody2D, else the root).")]
         [SerializeField] private Transform owner;
 
         private readonly Dictionary<IDamageable, float> lastHitTime = new Dictionary<IDamageable, float>();
@@ -33,7 +33,12 @@ namespace Wickfall.Combat
 
         private void Awake()
         {
-            if (owner == null) owner = transform.root;
+            if (owner == null)
+            {
+                // Not transform.root: enemies are grouped under an "Enemies" object sitting at the origin.
+                var body = GetComponentInParent<Rigidbody2D>();
+                owner = body != null ? body.transform : transform.root;
+            }
         }
 
         private void OnEnable() => lastHitTime.Clear();

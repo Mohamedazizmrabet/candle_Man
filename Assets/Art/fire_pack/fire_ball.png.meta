@@ -1,0 +1,4498 @@
+fileFormatVersion: 2
+guid: 8e4edbaab558b784aa7c1da66205f7ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3883404504879730988
+    second: fire_ball_0
+  - first:
+      213: -9180687036030369914
+    second: fire_ball_1
+  - first:
+      213: 3644630636490191709
+    second: fire_ball_2
+  - first:
+      213: -844579826736174546
+    second: fire_ball_3
+  - first:
+      213: -1611378591882320256
+    second: fire_ball_4
+  - first:
+      213: 7713165133050623675
+    second: fire_ball_5
+  - first:
+      213: -7800564234923419609
+    second: fire_ball_6
+  - first:
+      213: -4067817118196497789
+    second: fire_ball_7
+  - first:
+      213: 6643596199569237110
+    second: fire_ball_8
+  - first:
+      213: 296125051352187012
+    second: fire_ball_9
+  - first:
+      213: 4053990992441676513
+    second: fire_ball_10
+  - first:
+      213: 4036798377305519854
+    second: fire_ball_11
+  - first:
+      213: 960002151587025707
+    second: fire_ball_12
+  - first:
+      213: 3059233239482351846
+    second: fire_ball_13
+  - first:
+      213: -2092092816904734304
+    second: fire_ball_14
+  - first:
+      213: 7600961021507964907
+    second: fire_ball_15
+  - first:
+      213: -8100927979376712346
+    second: fire_ball_16
+  - first:
+      213: 4805008420972480234
+    second: fire_ball_17
+  - first:
+      213: 4039313523912201092
+    second: fire_ball_18
+  - first:
+      213: -6038705688335209862
+    second: fire_ball_19
+  - first:
+      213: 5578225300340806
+    second: fire_ball_20
+  - first:
+      213: -1196327874410569209
+    second: fire_ball_21
+  - first:
+      213: -1074588598675018749
+    second: fire_ball_22
+  - first:
+      213: -2758773481297040773
+    second: fire_ball_23
+  - first:
+      213: -3090974921021682424
+    second: fire_ball_24
+  - first:
+      213: 3058928261713945967
+    second: fire_ball_25
+  - first:
+      213: -2940197752840899307
+    second: fire_ball_26
+  - first:
+      213: -7048963742830820232
+    second: fire_ball_27
+  - first:
+      213: 5055072866070267576
+    second: fire_ball_28
+  - first:
+      213: -2166247138897094400
+    second: fire_ball_29
+  - first:
+      213: -6863642373538322874
+    second: fire_ball_30
+  - first:
+      213: 7853751318053287615
+    second: fire_ball_31
+  - first:
+      213: 944937352257678707
+    second: fire_ball_32
+  - first:
+      213: 1922212143405220199
+    second: fire_ball_33
+  - first:
+      213: -846069382495384003
+    second: fire_ball_34
+  - first:
+      213: -8875525208391861330
+    second: fire_ball_35
+  - first:
+      213: -7455253936859159313
+    second: fire_ball_36
+  - first:
+      213: 1673705273319021356
+    second: fire_ball_37
+  - first:
+      213: -2290143491674517561
+    second: fire_ball_38
+  - first:
+      213: -4517852561779654355
+    second: fire_ball_39
+  - first:
+      213: -4208414853112110010
+    second: fire_ball_40
+  - first:
+      213: -6684907743029164800
+    second: fire_ball_41
+  - first:
+      213: -840839620479424481
+    second: fire_ball_42
+  - first:
+      213: -1551437129252562623
+    second: fire_ball_43
+  - first:
+      213: 1509742082099458401
+    second: fire_ball_44
+  - first:
+      213: 4572745504873262288
+    second: fire_ball_45
+  - first:
+      213: 4613693305511497921
+    second: fire_ball_46
+  - first:
+      213: -5372177350028183547
+    second: fire_ball_47
+  - first:
+      213: 2793716987082860458
+    second: fire_ball_48
+  - first:
+      213: -3054088221792687029
+    second: fire_ball_49
+  - first:
+      213: -5250891475356991781
+    second: fire_ball_50
+  - first:
+      213: -3140405143232603938
+    second: fire_ball_51
+  - first:
+      213: -1731881283795532988
+    second: fire_ball_52
+  - first:
+      213: 8103075020113396423
+    second: fire_ball_53
+  - first:
+      213: -7896336585300670214
+    second: fire_ball_54
+  - first:
+      213: -8309677646545437436
+    second: fire_ball_55
+  - first:
+      213: -819140863348006059
+    second: fire_ball_56
+  - first:
+      213: -4676102646104785176
+    second: fire_ball_57
+  - first:
+      213: -4258652542370540994
+    second: fire_ball_58
+  - first:
+      213: 2630266952147181875
+    second: fire_ball_59
+  - first:
+      213: 3162380678980538553
+    second: fire_ball_60
+  - first:
+      213: 4392745729142035787
+    second: fire_ball_61
+  - first:
+      213: -7122040095479500749
+    second: fire_ball_62
+  - first:
+      213: -8453987807388216965
+    second: fire_ball_63
+  - first:
+      213: 7293649255386525478
+    second: fire_ball_64
+  - first:
+      213: -1957014572343085272
+    second: fire_ball_65
+  - first:
+      213: -5426996515418744172
+    second: fire_ball_66
+  - first:
+      213: -2702039703545304767
+    second: fire_ball_67
+  - first:
+      213: -3075093160154298235
+    second: fire_ball_68
+  - first:
+      213: -1155373801161924196
+    second: fire_ball_69
+  - first:
+      213: 512322785192751381
+    second: fire_ball_70
+  - first:
+      213: -4456928714482312471
+    second: fire_ball_71
+  - first:
+      213: 8826122883582891020
+    second: fire_ball_72
+  - first:
+      213: 5464161679344918022
+    second: fire_ball_73
+  - first:
+      213: -7618753302955480108
+    second: fire_ball_74
+  - first:
+      213: 1136058043464568443
+    second: fire_ball_75
+  - first:
+      213: 8609350259376181504
+    second: fire_ball_76
+  - first:
+      213: 2370418896681754407
+    second: fire_ball_77
+  - first:
+      213: 7350318599776885115
+    second: fire_ball_78
+  - first:
+      213: -6393737788034230999
+    second: fire_ball_79
+  - first:
+      213: -3637494469979663575
+    second: fire_ball_80
+  - first:
+      213: -7223855112488931990
+    second: fire_ball_81
+  - first:
+      213: -3543544367828482268
+    second: fire_ball_82
+  - first:
+      213: 8569126229707946064
+    second: fire_ball_83
+  - first:
+      213: -7341559349153269597
+    second: fire_ball_84
+  - first:
+      213: 409853817919646679
+    second: fire_ball_85
+  - first:
+      213: -8468241548623637126
+    second: fire_ball_86
+  - first:
+      213: -7322063551228131323
+    second: fire_ball_87
+  - first:
+      213: -177138024821790126
+    second: fire_ball_88
+  - first:
+      213: 3363560227911051421
+    second: fire_ball_89
+  - first:
+      213: -1658169845248152478
+    second: fire_ball_90
+  - first:
+      213: 5455709914620271519
+    second: fire_ball_91
+  - first:
+      213: -7917663117777962582
+    second: fire_ball_92
+  - first:
+      213: -1269680791914102442
+    second: fire_ball_93
+  - first:
+      213: 8419374836721598650
+    second: fire_ball_94
+  - first:
+      213: -4507014184310496080
+    second: fire_ball_95
+  - first:
+      213: 2145241460289044145
+    second: fire_ball_96
+  - first:
+      213: -2688630301924447807
+    second: fire_ball_97
+  - first:
+      213: -307869525056372156
+    second: fire_ball_98
+  - first:
+      213: -664111526718159103
+    second: fire_ball_99
+  - first:
+      213: -3882836575268535454
+    second: fire_ball_100
+  - first:
+      213: -4731216375202014537
+    second: fire_ball_101
+  - first:
+      213: 1376946206234517511
+    second: fire_ball_102
+  - first:
+      213: -1805841834955781503
+    second: fire_ball_103
+  - first:
+      213: -1261297502238743927
+    second: fire_ball_104
+  - first:
+      213: -2105433717968136740
+    second: fire_ball_105
+  - first:
+      213: -9077356503672393676
+    second: fire_ball_106
+  - first:
+      213: -3425903029583266788
+    second: fire_ball_107
+  - first:
+      213: 4391856987636925366
+    second: fire_ball_108
+  - first:
+      213: -3216824928154522863
+    second: fire_ball_109
+  - first:
+      213: -7495207212403277882
+    second: fire_ball_110
+  - first:
+      213: -5331456316416450033
+    second: fire_ball_111
+  - first:
+      213: 6817181061729634081
+    second: fire_ball_112
+  - first:
+      213: 8642843130049554356
+    second: fire_ball_113
+  - first:
+      213: -5774517979194594187
+    second: fire_ball_114
+  - first:
+      213: -1240349373473467429
+    second: fire_ball_115
+  - first:
+      213: 2178010529424270632
+    second: fire_ball_116
+  - first:
+      213: 85474164984597637
+    second: fire_ball_117
+  - first:
+      213: -2317667871943315631
+    second: fire_ball_118
+  - first:
+      213: 519359524524525658
+    second: fire_ball_119
+  - first:
+      213: 3369775574084532377
+    second: fire_ball_120
+  - first:
+      213: -3340166001070992212
+    second: fire_ball_121
+  - first:
+      213: -6577849776984450474
+    second: fire_ball_122
+  - first:
+      213: 4077966577743102630
+    second: fire_ball_123
+  - first:
+      213: -7973168058855874988
+    second: fire_ball_124
+  - first:
+      213: -4427915283888420202
+    second: fire_ball_125
+  - first:
+      213: -153496757769008500
+    second: fire_ball_126
+  - first:
+      213: 1692402452755860513
+    second: fire_ball_127
+  - first:
+      213: 5362738394722085742
+    second: fire_ball_128
+  - first:
+      213: -8764256577078375793
+    second: fire_ball_129
+  - first:
+      213: -3944702546681104445
+    second: fire_ball_130
+  - first:
+      213: 2856950675726917023
+    second: fire_ball_131
+  - first:
+      213: -6995761744709144571
+    second: fire_ball_132
+  - first:
+      213: 625124276159108819
+    second: fire_ball_133
+  - first:
+      213: -8082154121227065181
+    second: fire_ball_134
+  - first:
+      213: 508195021957809615
+    second: fire_ball_135
+  - first:
+      213: 5762566852504345790
+    second: fire_ball_136
+  - first:
+      213: 1813060066821459743
+    second: fire_ball_137
+  - first:
+      213: 2063072762664676507
+    second: fire_ball_138
+  - first:
+      213: 6711332247262736114
+    second: fire_ball_139
+  - first:
+      213: -2193018792676354321
+    second: fire_ball_140
+  - first:
+      213: -2788210928109495142
+    second: fire_ball_141
+  - first:
+      213: -4695670422419249783
+    second: fire_ball_142
+  - first:
+      213: 1868722943997897101
+    second: fire_ball_143
+  - first:
+      213: 2324722488982336256
+    second: fire_ball_144
+  - first:
+      213: 5552379269331085137
+    second: fire_ball_145
+  - first:
+      213: 4243648713319272207
+    second: fire_ball_146
+  - first:
+      213: -2265409175415845206
+    second: fire_ball_147
+  - first:
+      213: 7799762733675797893
+    second: fire_ball_148
+  - first:
+      213: 3649946977918593428
+    second: fire_ball_149
+  - first:
+      213: 3829149101190606724
+    second: fire_ball_150
+  - first:
+      213: 1599272626017663840
+    second: fire_ball_151
+  - first:
+      213: -4829447765809223336
+    second: fire_ball_152
+  - first:
+      213: -2985600293160920648
+    second: fire_ball_153
+  - first:
+      213: -3726908960529583245
+    second: fire_ball_154
+  - first:
+      213: -2382129664612992478
+    second: fire_ball_155
+  - first:
+      213: 6886709963040885589
+    second: fire_ball_156
+  - first:
+      213: -2670747348905417023
+    second: fire_ball_157
+  - first:
+      213: -7869500926015148506
+    second: fire_ball_158
+  - first:
+      213: 3106212117962741357
+    second: fire_ball_159
+  - first:
+      213: -5570254665469288420
+    second: fire_ball_160
+  - first:
+      213: -3559138650587974782
+    second: fire_ball_161
+  - first:
+      213: 5606503711047116726
+    second: fire_ball_162
+  - first:
+      213: 4120817783857407616
+    second: fire_ball_163
+  - first:
+      213: 5550021919686138785
+    second: fire_ball_164
+  - first:
+      213: -1155414890650943828
+    second: fire_ball_165
+  - first:
+      213: 6801016437045445950
+    second: fire_ball_166
+  - first:
+      213: 7811838841514735675
+    second: fire_ball_167
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fire_ball_0
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 2047
+        width: 104
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21128072df94e530800000000000000
+      internalID: 3883404504879730988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_1
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 2051
+        width: 105
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f306738c5a79080800000000000000
+      internalID: -9180687036030369914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_2
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 2050
+        width: 106
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53f089f044549230800000000000000
+      internalID: 3644630636490191709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_3
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 2050
+        width: 108
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2aede25f137744f0800000000000000
+      internalID: -844579826736174546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_4
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 2043
+        width: 115
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0866f2845bb33a9e0800000000000000
+      internalID: -1611378591882320256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_5
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 2049
+        width: 113
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb6396982daaa0b60800000000000000
+      internalID: 7713165133050623675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_6
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 2048
+        width: 112
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728d5c15824deb390800000000000000
+      internalID: -7800564234923419609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_7
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 2046
+        width: 114
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38205aa12e53c87c0800000000000000
+      internalID: -4067817118196497789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_8
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 2044
+        width: 117
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674a5725b8bc23c50800000000000000
+      internalID: 6643596199569237110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_9
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1793
+        width: 121
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48001fe4a2c0c1400800000000000000
+      internalID: 296125051352187012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_10
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 1791
+        width: 133
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e29e13245ba24830800000000000000
+      internalID: 4053990992441676513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_11
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1791
+        width: 134
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee63b2d7cb6950830800000000000000
+      internalID: 4036798377305519854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_12
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1790
+        width: 131
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2394fcdedc925d00800000000000000
+      internalID: 960002151587025707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_13
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 1790
+        width: 140
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0c96c3c64947a20800000000000000
+      internalID: 3059233239482351846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_14
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1789
+        width: 147
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a93f3bdaa467f2e0800000000000000
+      internalID: -2092092816904734304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_15
+      rect:
+        serializedVersion: 2
+        x: 1597
+        y: 1788
+        width: 152
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef829607c90c7960800000000000000
+      internalID: 7600961021507964907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_16
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 1787
+        width: 159
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6656a3e5ce8b39f80800000000000000
+      internalID: -8100927979376712346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_17
+      rect:
+        serializedVersion: 2
+        x: 2081
+        y: 1786
+        width: 169
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae643da63b1dea240800000000000000
+      internalID: 4805008420972480234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_18
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1544
+        width: 174
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483d731bf368e0830800000000000000
+      internalID: 4039313523912201092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1571
+        width: 181
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a26afbb25323ca0800000000000000
+      internalID: -6038705688335209862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_20
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1571
+        width: 190
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6400189cd51d31000800000000000000
+      internalID: 5578225300340806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_21
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 1571
+        width: 193
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7022cdaf22ac56fe0800000000000000
+      internalID: -1196327874410569209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_22
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1570
+        width: 201
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c6a48ec5b4611f0800000000000000
+      internalID: -1074588598675018749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_23
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1581
+        width: 205
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7aa587a22ed6b9d0800000000000000
+      internalID: -2758773481297040773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_24
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 1584
+        width: 208
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d8cde9fa6aa15d0800000000000000
+      internalID: -3090974921021682424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_25
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 1585
+        width: 213
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f65ecd01c0f737a20800000000000000
+      internalID: 3058928261713945967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_26
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 1667
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515348cb8b15237d0800000000000000
+      internalID: -2940197752840899307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_27
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 1608
+        width: 209
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87406f9a2dc0d2e90800000000000000
+      internalID: -7048963742830820232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_28
+      rect:
+        serializedVersion: 2
+        x: 2207
+        y: 1597
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b685df1df9372640800000000000000
+      internalID: 5055072866070267576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_29
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 1612
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009155654b1ffe1e0800000000000000
+      internalID: -2166247138897094400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_30
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 1545
+        width: 81
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646edeb50a17fb0a0800000000000000
+      internalID: -6863642373538322874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_31
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1579
+        width: 39
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb672da76312efc60800000000000000
+      internalID: 7853751318053287615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_32
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 1573
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d2150f3871d1d00800000000000000
+      internalID: 944937352257678707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_33
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 1584
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7614c9692c11daa10800000000000000
+      internalID: 1922212143405220199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_34
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1564
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e470911682244f0800000000000000
+      internalID: -846069382495384003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_35
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 1551
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab37c6f8dcc3d480800000000000000
+      internalID: -8875525208391861330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_36
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1550
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe46d274b0e998890800000000000000
+      internalID: -7455253936859159313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_37
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 1548
+        width: 37
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2bd0e214123a3710800000000000000
+      internalID: 1673705273319021356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_38
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1536
+        width: 37
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf4116c0a6c730e0800000000000000
+      internalID: -2290143491674517561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_39
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1535
+        width: 34
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21098b180d5d41c0800000000000000
+      internalID: -4517852561779654355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_40
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1358
+        width: 207
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64466ccfcf4b895c0800000000000000
+      internalID: -4208414853112110010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_41
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1357
+        width: 210
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0050d7c63df6a33a0800000000000000
+      internalID: -6684907743029164800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_42
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1357
+        width: 209
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18ef34f1dcb454f0800000000000000
+      internalID: -840839620479424481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_43
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1354
+        width: 203
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1499c8b9620387ae0800000000000000
+      internalID: -1551437129252562623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_44
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1431
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1613ff9bc6ea3f410800000000000000
+      internalID: 1509742082099458401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_45
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1347
+        width: 202
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc2c3a2fc7a57f30800000000000000
+      internalID: 4572745504873262288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_46
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1401
+        width: 8
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c05c91fd91270040800000000000000
+      internalID: 4613693305511497921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_47
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 1339
+        width: 201
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 508bb25c9213275b0800000000000000
+      internalID: -5372177350028183547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_48
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 1331
+        width: 205
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa76c0a4cc645c620800000000000000
+      internalID: 2793716987082860458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_49
+      rect:
+        serializedVersion: 2
+        x: 1755
+        y: 1327
+        width: 205
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ca75b81f2bd95d0800000000000000
+      internalID: -3054088221792687029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_50
+      rect:
+        serializedVersion: 2
+        x: 2002
+        y: 1317
+        width: 198
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde383906061127b0800000000000000
+      internalID: -5250891475356991781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_51
+      rect:
+        serializedVersion: 2
+        x: 2200
+        y: 1430
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed89fca292a0b64d0800000000000000
+      internalID: -3140405143232603938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_52
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1347
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4434836f52f17f7e0800000000000000
+      internalID: -1731881283795532988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_53
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 1380
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c243328cc7e37070800000000000000
+      internalID: 8103075020113396423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_54
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 1390
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af88b3656b39a6290800000000000000
+      internalID: -7896336585300670214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_55
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1068
+        width: 177
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40db7aff4381eac80800000000000000
+      internalID: -8309677646545437436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_56
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1200
+        width: 59
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553a22b89b3d1a4f0800000000000000
+      internalID: -819140863348006059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_57
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1055
+        width: 179
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eef8ad1b652b1fb0800000000000000
+      internalID: -4676102646104785176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_58
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1207
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e329036731a36e4c0800000000000000
+      internalID: -4258652542370540994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_59
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1204
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331ae237bd5908420800000000000000
+      internalID: 2630266952147181875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_60
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1055
+        width: 181
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b09137f87803eb20800000000000000
+      internalID: 3162380678980538553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_61
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1047
+        width: 159
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45102687fa26fc30800000000000000
+      internalID: 4392745729142035787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_62
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1151
+        width: 18
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330fad0744e692d90800000000000000
+      internalID: -7122040095479500749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_63
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1039
+        width: 159
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b71542d51e66daa80800000000000000
+      internalID: -8453987807388216965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_64
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1193
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f2b97ba5f383560800000000000000
+      internalID: 7293649255386525478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_65
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1032
+        width: 158
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8273a3b7d9947d4e0800000000000000
+      internalID: -1957014572343085272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_66
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 1033
+        width: 147
+        height: 218
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ade253c6f6fa4b0800000000000000
+      internalID: -5426996515418744172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_67
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 1221
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1492e25a43d608ad0800000000000000
+      internalID: -2702039703545304767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_68
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1207
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58805c930131355d0800000000000000
+      internalID: -3075093160154298235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_69
+      rect:
+        serializedVersion: 2
+        x: 1750
+        y: 1023
+        width: 148
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9163f636a947ffe0800000000000000
+      internalID: -1155373801161924196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_70
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 1023
+        width: 150
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511b0c5dbd22c1700800000000000000
+      internalID: 512322785192751381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_71
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1152
+        width: 13
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ea1b00b2fec522c0800000000000000
+      internalID: -4456928714482312471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_72
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1153
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0497e3ffffac7a70800000000000000
+      internalID: 8826122883582891020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_73
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1152
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ed7a4d81a94db40800000000000000
+      internalID: 5464161679344918022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 769
+        width: 151
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db2102ac30c44690800000000000000
+      internalID: -7618753302955480108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_75
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 964
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e4eec75c614cf00800000000000000
+      internalID: 1136058043464568443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_76
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 767
+        width: 157
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001d805527e8a7770800000000000000
+      internalID: 8609350259376181504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_77
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 971
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72fd6917d6b65e020800000000000000
+      internalID: 2370418896681754407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_78
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 765
+        width: 168
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b79d5a5a2d3910660800000000000000
+      internalID: 7350318599776885115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_79
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 952
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9255a357b51e447a0800000000000000
+      internalID: -6393737788034230999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_80
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 763
+        width: 174
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9231a644d06058dc0800000000000000
+      internalID: -3637494469979663575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_81
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 761
+        width: 181
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d253f7c06bfbb90800000000000000
+      internalID: -7223855112488931990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_82
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 759
+        width: 180
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4274fb50c2dc2dec0800000000000000
+      internalID: -3543544367828482268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_83
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 947
+        width: 33
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058793d97e6abe670800000000000000
+      internalID: 8569126229707946064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_84
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 892
+        width: 45
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a875405baa8d1a90800000000000000
+      internalID: -7341559349153269597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_85
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 757
+        width: 190
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db20fa30e710b500800000000000000
+      internalID: 409853817919646679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_86
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 755
+        width: 196
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75951e9d23ca7a80800000000000000
+      internalID: -8468241548623637126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_87
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 754
+        width: 204
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 508463e7efdc26a90800000000000000
+      internalID: -7322063551228131323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_88
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 916
+        width: 46
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a684aa7edaa8df0800000000000000
+      internalID: -177138024821790126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_89
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 502
+        width: 207
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d982545d434cdae20800000000000000
+      internalID: 3363560227911051421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_90
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 676
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c28b4af4ffcf8e0800000000000000
+      internalID: -1658169845248152478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_91
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 643
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b9482034396bb40800000000000000
+      internalID: 5455709914620271519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_92
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 666
+        width: 31
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9f1ad085fce1290800000000000000
+      internalID: -7917663117777962582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_93
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 501
+        width: 213
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 651c2dbfb00316ee0800000000000000
+      internalID: -1269680791914102442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_94
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 500
+        width: 222
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab047a56ec0a7d470800000000000000
+      internalID: 8419374836721598650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_95
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 499
+        width: 226
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4a6828a7ed371c0800000000000000
+      internalID: -4507014184310496080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_96
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 499
+        width: 216
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bef7fdfdbd65cd10800000000000000
+      internalID: 2145241460289044145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_97
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 607
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c921714cf010bad0800000000000000
+      internalID: -2688630301924447807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_98
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 499
+        width: 218
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442c8d15c4a3abbf0800000000000000
+      internalID: -307869525056372156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_99
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 628
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107c8b6c51a98c6f0800000000000000
+      internalID: -664111526718159103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_100
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 499
+        width: 209
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263893af4b46d1ac0800000000000000
+      internalID: -3882836575268535454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_101
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 631
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba929816c7575eb0800000000000000
+      internalID: -4731216375202014537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_102
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 499
+        width: 208
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7002e697745eb1310800000000000000
+      internalID: 1376946206234517511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_103
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 499
+        width: 201
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18acbea3b6c50f6e0800000000000000
+      internalID: -1805841834955781503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_104
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 545
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982e8f6ba98fe7ee0800000000000000
+      internalID: -1261297502238743927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_105
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 537
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd51166403ff7c2e0800000000000000
+      internalID: -2105433717968136740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_106
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 249
+        width: 195
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43076039a50c60280800000000000000
+      internalID: -9077356503672393676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_107
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 249
+        width: 197
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c31c6885fb470d0800000000000000
+      internalID: -3425903029583266788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_108
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 249
+        width: 197
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b38a6449a203fc30800000000000000
+      internalID: 4391856987636925366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_109
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 254
+        width: 183
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b6ab475ca8b53d0800000000000000
+      internalID: -3216824928154522863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_110
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 287
+        width: 26
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfb1ca60ccabf790800000000000000
+      internalID: -7495207212403277882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_111
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 254
+        width: 159
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f022c7c3abcd206b0800000000000000
+      internalID: -5331456316416450033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_112
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 316
+        width: 14
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1274ae18e0e7b9e50800000000000000
+      internalID: 6817181061729634081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_113
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 255
+        width: 159
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b76708f80c81f770800000000000000
+      internalID: 8642843130049554356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_114
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 358
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ceffc1e7accdfa0800000000000000
+      internalID: -5774517979194594187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_115
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 254
+        width: 153
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd35cb401d469cee0800000000000000
+      internalID: -1240349373473467429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_116
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 258
+        width: 155
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825e4637909d93e10800000000000000
+      internalID: 2178010529424270632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_117
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 330
+        width: 12
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c4169dc4aaf2100800000000000000
+      internalID: 85474164984597637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_118
+      rect:
+        serializedVersion: 2
+        x: 2092
+        y: 258
+        width: 151
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15fab79995df5dfd0800000000000000
+      internalID: -2317667871943315631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_119
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 287
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5800026cb2253700800000000000000
+      internalID: 519359524524525658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_120
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 320
+        width: 8
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 998b812e709d3ce20800000000000000
+      internalID: 3369775574084532377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_121
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 279
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4935f08b855a1d0800000000000000
+      internalID: -3340166001070992212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_122
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 279
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65a95f09a78c6b4a0800000000000000
+      internalID: -6577849776984450474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_123
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 285
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a20b481ff8d79830800000000000000
+      internalID: 4077966577743102630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_124
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 275
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e9765e4ed995190800000000000000
+      internalID: -7973168058855874988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_125
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 275
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ace486282ec82c0800000000000000
+      internalID: -4427915283888420202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_126
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 16
+        width: 152
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a0107138baeddf0800000000000000
+      internalID: -153496757769008500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_127
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 16
+        width: 147
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c4385601f9c7710800000000000000
+      internalID: 1692402452755860513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_128
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 23
+        width: 146
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b22c038264c6a40800000000000000
+      internalID: 5362738394722085742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_129
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 113
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8accd2041b1f5680800000000000000
+      internalID: -8764256577078375793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_130
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 25
+        width: 122
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c77e780fe99149c0800000000000000
+      internalID: -3944702546681104445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_131
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 116
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9dd387b08de5a720800000000000000
+      internalID: 2856950675726917023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_132
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 143
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500385122cf0aee90800000000000000
+      internalID: -6995761744709144571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_133
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 55
+        width: 105
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d6dfe49733eca800800000000000000
+      internalID: 625124276159108819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_134
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 151
+        width: 33
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a82d48d5ab66df80800000000000000
+      internalID: -8082154121227065181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_135
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 134
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5ca601ea87d0700800000000000000
+      internalID: 508195021957809615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_136
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 137
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc56fd5500c8ff40800000000000000
+      internalID: 5762566852504345790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_137
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 117
+        width: 22
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1fc6575688492910800000000000000
+      internalID: 1813060066821459743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_138
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 119
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c696c3fb181ac10800000000000000
+      internalID: 2063072762664676507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_139
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 116
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe28b7ee11732d50800000000000000
+      internalID: 6711332247262736114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_140
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 55
+        width: 89
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe615c4f605d091e0800000000000000
+      internalID: -2193018792676354321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_141
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 104
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cdb27fee84e49d0800000000000000
+      internalID: -2788210928109495142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_142
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 133
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985646921a0a5deb0800000000000000
+      internalID: -4695670422419249783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_143
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 73
+        width: 17
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89ed9cdd990fe910800000000000000
+      internalID: 1868722943997897101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_144
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 88
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 003772d69c2134020800000000000000
+      internalID: 2324722488982336256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_145
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 62
+        width: 17
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157e8b617830e0d40800000000000000
+      internalID: 5552379269331085137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_146
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 87
+        width: 10
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f40fc550874ea30800000000000000
+      internalID: 4243648713319272207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_147
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 77
+        width: 7
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aae8d6c8b56af80e0800000000000000
+      internalID: -2265409175415845206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_148
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 87
+        width: 6
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d5311a1e25e3c60800000000000000
+      internalID: 7799762733675797893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_149
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 82
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49929db207737a230800000000000000
+      internalID: 3649946977918593428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_150
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 83
+        width: 12
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fe870e1ded32530800000000000000
+      internalID: 3829149101190606724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_151
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 91
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06bf9c4eaf1c13610800000000000000
+      internalID: 1599272626017663840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_152
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 69
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85923a138da5afcb0800000000000000
+      internalID: -4829447765809223336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_153
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 68
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b957dc0a540196d0800000000000000
+      internalID: -2985600293160920648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_154
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 49
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373f961eb0c574cc0800000000000000
+      internalID: -3726908960529583245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_155
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 33
+        width: 96
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a72dbe0b9f0fed0800000000000000
+      internalID: -2382129664612992478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_156
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 77
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b023a5932829f50800000000000000
+      internalID: 6886709963040885589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_157
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 66
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c62da7bf699fead0800000000000000
+      internalID: -2670747348905417023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_158
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 56
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e62492a9ae9c290800000000000000
+      internalID: -7869500926015148506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_159
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 45
+        width: 35
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66de20c67b7b1b20800000000000000
+      internalID: 3106212117962741357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_160
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 33
+        width: 63
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10ad3ce4ea72b2b0800000000000000
+      internalID: -5570254665469288420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_161
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 44
+        width: 33
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283375121466b9ec0800000000000000
+      internalID: -3559138650587974782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_162
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 38
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b76fd0bb6d4ecd40800000000000000
+      internalID: 5606503711047116726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_163
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 24
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086eeeef0f5103930800000000000000
+      internalID: 4120817783857407616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_164
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 16
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab168ad783a50d40800000000000000
+      internalID: 5550021919686138785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_165
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 15
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caebd82574427ffe0800000000000000
+      internalID: -1155414890650943828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_166
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 24
+        width: 54
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35cfa98a60126e50800000000000000
+      internalID: 6801016437045445950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fire_ball_167
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 23
+        width: 34
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38b517990a396c60800000000000000
+      internalID: 7811838841514735675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fire_ball_0: 3883404504879730988
+      fire_ball_1: -9180687036030369914
+      fire_ball_10: 4053990992441676513
+      fire_ball_100: -3882836575268535454
+      fire_ball_101: -4731216375202014537
+      fire_ball_102: 1376946206234517511
+      fire_ball_103: -1805841834955781503
+      fire_ball_104: -1261297502238743927
+      fire_ball_105: -2105433717968136740
+      fire_ball_106: -9077356503672393676
+      fire_ball_107: -3425903029583266788
+      fire_ball_108: 4391856987636925366
+      fire_ball_109: -3216824928154522863
+      fire_ball_11: 4036798377305519854
+      fire_ball_110: -7495207212403277882
+      fire_ball_111: -5331456316416450033
+      fire_ball_112: 6817181061729634081
+      fire_ball_113: 8642843130049554356
+      fire_ball_114: -5774517979194594187
+      fire_ball_115: -1240349373473467429
+      fire_ball_116: 2178010529424270632
+      fire_ball_117: 85474164984597637
+      fire_ball_118: -2317667871943315631
+      fire_ball_119: 519359524524525658
+      fire_ball_12: 960002151587025707
+      fire_ball_120: 3369775574084532377
+      fire_ball_121: -3340166001070992212
+      fire_ball_122: -6577849776984450474
+      fire_ball_123: 4077966577743102630
+      fire_ball_124: -7973168058855874988
+      fire_ball_125: -4427915283888420202
+      fire_ball_126: -153496757769008500
+      fire_ball_127: 1692402452755860513
+      fire_ball_128: 5362738394722085742
+      fire_ball_129: -8764256577078375793
+      fire_ball_13: 3059233239482351846
+      fire_ball_130: -3944702546681104445
+      fire_ball_131: 2856950675726917023
+      fire_ball_132: -6995761744709144571
+      fire_ball_133: 625124276159108819
+      fire_ball_134: -8082154121227065181
+      fire_ball_135: 508195021957809615
+      fire_ball_136: 5762566852504345790
+      fire_ball_137: 1813060066821459743
+      fire_ball_138: 2063072762664676507
+      fire_ball_139: 6711332247262736114
+      fire_ball_14: -2092092816904734304
+      fire_ball_140: -2193018792676354321
+      fire_ball_141: -2788210928109495142
+      fire_ball_142: -4695670422419249783
+      fire_ball_143: 1868722943997897101
+      fire_ball_144: 2324722488982336256
+      fire_ball_145: 5552379269331085137
+      fire_ball_146: 4243648713319272207
+      fire_ball_147: -2265409175415845206
+      fire_ball_148: 7799762733675797893
+      fire_ball_149: 3649946977918593428
+      fire_ball_15: 7600961021507964907
+      fire_ball_150: 3829149101190606724
+      fire_ball_151: 1599272626017663840
+      fire_ball_152: -4829447765809223336
+      fire_ball_153: -2985600293160920648
+      fire_ball_154: -3726908960529583245
+      fire_ball_155: -2382129664612992478
+      fire_ball_156: 6886709963040885589
+      fire_ball_157: -2670747348905417023
+      fire_ball_158: -7869500926015148506
+      fire_ball_159: 3106212117962741357
+      fire_ball_16: -8100927979376712346
+      fire_ball_160: -5570254665469288420
+      fire_ball_161: -3559138650587974782
+      fire_ball_162: 5606503711047116726
+      fire_ball_163: 4120817783857407616
+      fire_ball_164: 5550021919686138785
+      fire_ball_165: -1155414890650943828
+      fire_ball_166: 6801016437045445950
+      fire_ball_167: 7811838841514735675
+      fire_ball_17: 4805008420972480234
+      fire_ball_18: 4039313523912201092
+      fire_ball_19: -6038705688335209862
+      fire_ball_2: 3644630636490191709
+      fire_ball_20: 5578225300340806
+      fire_ball_21: -1196327874410569209
+      fire_ball_22: -1074588598675018749
+      fire_ball_23: -2758773481297040773
+      fire_ball_24: -3090974921021682424
+      fire_ball_25: 3058928261713945967
+      fire_ball_26: -2940197752840899307
+      fire_ball_27: -7048963742830820232
+      fire_ball_28: 5055072866070267576
+      fire_ball_29: -2166247138897094400
+      fire_ball_3: -844579826736174546
+      fire_ball_30: -6863642373538322874
+      fire_ball_31: 7853751318053287615
+      fire_ball_32: 944937352257678707
+      fire_ball_33: 1922212143405220199
+      fire_ball_34: -846069382495384003
+      fire_ball_35: -8875525208391861330
+      fire_ball_36: -7455253936859159313
+      fire_ball_37: 1673705273319021356
+      fire_ball_38: -2290143491674517561
+      fire_ball_39: -4517852561779654355
+      fire_ball_4: -1611378591882320256
+      fire_ball_40: -4208414853112110010
+      fire_ball_41: -6684907743029164800
+      fire_ball_42: -840839620479424481
+      fire_ball_43: -1551437129252562623
+      fire_ball_44: 1509742082099458401
+      fire_ball_45: 4572745504873262288
+      fire_ball_46: 4613693305511497921
+      fire_ball_47: -5372177350028183547
+      fire_ball_48: 2793716987082860458
+      fire_ball_49: -3054088221792687029
+      fire_ball_5: 7713165133050623675
+      fire_ball_50: -5250891475356991781
+      fire_ball_51: -3140405143232603938
+      fire_ball_52: -1731881283795532988
+      fire_ball_53: 8103075020113396423
+      fire_ball_54: -7896336585300670214
+      fire_ball_55: -8309677646545437436
+      fire_ball_56: -819140863348006059
+      fire_ball_57: -4676102646104785176
+      fire_ball_58: -4258652542370540994
+      fire_ball_59: 2630266952147181875
+      fire_ball_6: -7800564234923419609
+      fire_ball_60: 3162380678980538553
+      fire_ball_61: 4392745729142035787
+      fire_ball_62: -7122040095479500749
+      fire_ball_63: -8453987807388216965
+      fire_ball_64: 7293649255386525478
+      fire_ball_65: -1957014572343085272
+      fire_ball_66: -5426996515418744172
+      fire_ball_67: -2702039703545304767
+      fire_ball_68: -3075093160154298235
+      fire_ball_69: -1155373801161924196
+      fire_ball_7: -4067817118196497789
+      fire_ball_70: 512322785192751381
+      fire_ball_71: -4456928714482312471
+      fire_ball_72: 8826122883582891020
+      fire_ball_73: 5464161679344918022
+      fire_ball_74: -7618753302955480108
+      fire_ball_75: 1136058043464568443
+      fire_ball_76: 8609350259376181504
+      fire_ball_77: 2370418896681754407
+      fire_ball_78: 7350318599776885115
+      fire_ball_79: -6393737788034230999
+      fire_ball_8: 6643596199569237110
+      fire_ball_80: -3637494469979663575
+      fire_ball_81: -7223855112488931990
+      fire_ball_82: -3543544367828482268
+      fire_ball_83: 8569126229707946064
+      fire_ball_84: -7341559349153269597
+      fire_ball_85: 409853817919646679
+      fire_ball_86: -8468241548623637126
+      fire_ball_87: -7322063551228131323
+      fire_ball_88: -177138024821790126
+      fire_ball_89: 3363560227911051421
+      fire_ball_9: 296125051352187012
+      fire_ball_90: -1658169845248152478
+      fire_ball_91: 5455709914620271519
+      fire_ball_92: -7917663117777962582
+      fire_ball_93: -1269680791914102442
+      fire_ball_94: 8419374836721598650
+      fire_ball_95: -4507014184310496080
+      fire_ball_96: 2145241460289044145
+      fire_ball_97: -2688630301924447807
+      fire_ball_98: -307869525056372156
+      fire_ball_99: -664111526718159103
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
