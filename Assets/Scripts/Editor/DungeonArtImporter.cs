@@ -86,6 +86,27 @@ namespace Wickfall.EditorTools
         }
 
         /// <summary>
+        /// An invisible, fully solid tile: blocks movement but draws nothing. Used on wall corners that
+        /// have no sprite, so the wall collision has no gaps.
+        /// </summary>
+        public static Tile GetBlockerTile()
+        {
+            string path = $"{TileDir}/wall_blocker.asset";
+            var tile = AssetDatabase.LoadAssetAtPath<Tile>(path);
+            if (tile == null)
+            {
+                WickfallEditorUtil.EnsureFolder(TileDir);
+                tile = ScriptableObject.CreateInstance<Tile>();
+                AssetDatabase.CreateAsset(tile, path);
+            }
+
+            tile.sprite = null;
+            tile.colliderType = Tile.ColliderType.Grid;
+            EditorUtility.SetDirty(tile);
+            return tile;
+        }
+
+        /// <summary>
         /// A looping animation for an enemy from numbered frames of the sheet (prefix0, prefix1...),
         /// saved as Animations/Enemies/{name}_Loop.anim with its own controller. Returns the first frame too.
         /// </summary>

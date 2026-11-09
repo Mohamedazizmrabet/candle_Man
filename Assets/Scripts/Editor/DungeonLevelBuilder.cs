@@ -234,6 +234,10 @@ namespace Wickfall.EditorTools
             return null;
         }
 
+        private static bool TouchesFloorDiagonally(int col, int row) =>
+            !Solid(col - 1, row - 1) || !Solid(col + 1, row - 1) ||
+            !Solid(col - 1, row + 1) || !Solid(col + 1, row + 1);
+
         private static bool IsFountainAbove(int col, int row) =>
             row + 1 < Height && spec.Map[row + 1][col] == 'F' || row + 2 < Height && spec.Map[row + 2][col] == 'F';
 
@@ -262,7 +266,14 @@ namespace Wickfall.EditorTools
                     }
 
                     string wall = WallSprite(col, row);
-                    if (wall == null) continue;
+                    if (wall == null)
+                    {
+                        // Corner cells that only touch the floor diagonally have no sprite. Without a
+                        // collider there, the player can slip through the gap between two walls.
+                        if (TouchesFloorDiagonally(col, row))
+                            walls.SetTile(Cell(col, row), DungeonArtImporter.GetBlockerTile());
+                        continue;
+                    }
 
                     bool faceOnFloor = wall == "wall_mid" && !Solid(col, row + 1) && !IsFountainAbove(col, row);
                     if (faceOnFloor)

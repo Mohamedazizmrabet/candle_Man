@@ -144,7 +144,7 @@ GameObject:
   - component: {fileID: 5429493514681185364}
   - component: {fileID: 3654314499630885552}
   - component: {fileID: 1165036900611859942}
-  - component: {fileID: 1182844820099302932}
+  - component: {fileID: 3874510668358281575}
   m_Layer: 0
   m_Name: DemonLord
   m_TagString: Untagged
@@ -311,7 +311,7 @@ MonoBehaviour:
   damageable: {fileID: 4754098446140632342}
   pickupPrefab: {fileID: 4884281542355394456, guid: 5540b79acace9b545a52cd104f4e84b5, type: 3}
   scatterSpeed: 2.5
---- !u!114 &1182844820099302932
+--- !u!114 &3874510668358281575
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
