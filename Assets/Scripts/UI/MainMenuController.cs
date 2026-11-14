@@ -41,12 +41,12 @@ namespace Wickfall.UI
 
         private void Awake()
         {
-            newGame.onClick.AddListener(LoadLevelOne);
-            // No save system yet: Continue starts level 1 too.
-            continueGame.onClick.AddListener(LoadLevelOne);
-            settings.onClick.AddListener(OpenSettings);
-            quit.onClick.AddListener(Quit);
-            settingsMenu.Back.onClick.AddListener(CloseSettings);
+            if (newGame != null) newGame.onClick.AddListener(StartNewGame);
+            // There is no save system yet, so Continue also starts at level 1.
+            if (continueGame != null) continueGame.onClick.AddListener(ContinueGame);
+            if (settings != null) settings.onClick.AddListener(OpenSettings);
+            if (quit != null) quit.onClick.AddListener(Quit);
+            if (settingsMenu != null && settingsMenu.Back != null) settingsMenu.Back.onClick.AddListener(CloseSettings);
         }
 
         private void Start()
@@ -55,6 +55,7 @@ namespace Wickfall.UI
             SetGroup(mainGroup, 1f, true);
 
             Select(newGame);
+            GameMusic.EnsurePlaying();
             SceneFader.FadeFromBlack(fadeFromBlackSeconds);
         }
 
@@ -72,10 +73,21 @@ namespace Wickfall.UI
 
         // ---------- Actions ----------
 
+        private void StartNewGame()
+        {
+            if (SceneFader.LoadSceneImmediately(levelOneScene) && mainGroup != null)
+                SetGroup(mainGroup, mainGroup.alpha, false);
+        }
+
+        private void ContinueGame() => LoadLevelOne();
+
         private void LoadLevelOne()
         {
             // No double clicks while fading.
-            if (SceneFader.FadeToScene(levelOneScene, fadeOutSeconds, fadeInSeconds)) SetGroup(mainGroup, mainGroup.alpha, false);
+            if (SceneFader.FadeToScene(levelOneScene, fadeOutSeconds, fadeInSeconds))
+            {
+                if (mainGroup != null) SetGroup(mainGroup, mainGroup.alpha, false);
+            }
         }
 
         private void OpenSettings()

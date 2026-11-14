@@ -14,6 +14,8 @@ namespace Wickfall.Core
         private static SceneFader instance;
 
         private Image overlay;
+        private Coroutine activeFade;
+        private bool revealing;
 
         public static bool IsFading { get; private set; }
 
@@ -23,15 +25,43 @@ namespace Wickfall.Core
         /// </summary>
         public static bool FadeToScene(string sceneName, float fadeOutSeconds, float fadeInSeconds)
         {
-            if (IsFading) return false;
-
             if (!Application.CanStreamedLevelBeLoaded(sceneName))
             {
                 Debug.LogError($"[Wickfall] Scene '{sceneName}' is not in File > Build Profiles > Scene List.");
                 return false;
             }
 
-            Instance.StartCoroutine(Instance.Run(sceneName, fadeOutSeconds, fadeInSeconds));
+            var fader = Instance;
+            // If a player confirms during the menu's opening fade, let the scene change take over.
+            if (IsFading)
+            {
+                if (!fader.revealing) return false;
+                if (fader.activeFade != null) fader.StopCoroutine(fader.activeFade);
+                fader.revealing = false;
+                IsFading = false;
+            }
+
+            fader.activeFade = fader.StartCoroutine(fader.Run(sceneName, fadeOutSeconds, fadeInSeconds));
+            return true;
+        }
+
+        /// <summary>Loads a scene without a transition, cancelling the menu's opening fade if needed.</summary>
+        public static bool LoadSceneImmediately(string sceneName)
+        {
+            if (!Application.CanStreamedLevelBeLoaded(sceneName))
+            {
+                Debug.LogError($"[Wickfall] Scene '{sceneName}' is not in File > Build Profiles > Scene List.");
+                return false;
+            }
+
+            var fader = Instance;
+            if (fader.activeFade != null) fader.StopCoroutine(fader.activeFade);
+            fader.activeFade = null;
+            fader.revealing = false;
+            IsFading = false;
+            fader.overlay.raycastTarget = false;
+            fader.SetAlpha(0f);
+            SceneManager.LoadScene(sceneName);
             return true;
         }
 
@@ -39,7 +69,8 @@ namespace Wickfall.Core
         public static void FadeFromBlack(float seconds)
         {
             if (IsFading) return;
-            Instance.StartCoroutine(Instance.Reveal(seconds));
+            var fader = Instance;
+            fader.activeFade = fader.StartCoroutine(fader.Reveal(seconds));
         }
 
         private static SceneFader Instance => instance != null ? instance : instance = Create();
@@ -71,9 +102,10 @@ namespace Wickfall.Core
         private IEnumerator Run(string sceneName, float fadeOutSeconds, float fadeInSeconds)
         {
             IsFading = true;
+            revealing = false;
             overlay.raycastTarget = true;
 
-            yield return Fade(0f, 1f, fadeOutSeconds);
+            yield return Fade(overlay.color.a, 1f, fadeOutSeconds);
 
             var load = SceneManager.LoadSceneAsync(sceneName);
             while (!load.isDone) yield return null;
@@ -84,15 +116,19 @@ namespace Wickfall.Core
 
             overlay.raycastTarget = false;
             IsFading = false;
+            activeFade = null;
         }
 
         private IEnumerator Reveal(float seconds)
         {
             IsFading = true;
+            revealing = true;
             SetAlpha(1f);
             yield return null;
             yield return Fade(1f, 0f, seconds);
+            revealing = false;
             IsFading = false;
+            activeFade = null;
         }
 
         private IEnumerator Fade(float from, float to, float seconds)
