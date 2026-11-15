@@ -39,16 +39,6 @@ namespace Wickfall.UI
         private bool inSettings;
         private Coroutine swap;
 
-        private void Awake()
-        {
-            if (newGame != null) newGame.onClick.AddListener(StartNewGame);
-            // There is no save system yet, so Continue also starts at level 1.
-            if (continueGame != null) continueGame.onClick.AddListener(ContinueGame);
-            if (settings != null) settings.onClick.AddListener(OpenSettings);
-            if (quit != null) quit.onClick.AddListener(Quit);
-            if (settingsMenu != null && settingsMenu.Back != null) settingsMenu.Back.onClick.AddListener(CloseSettings);
-        }
-
         private void Start()
         {
             SetGroup(settingsGroup, 0f, false);
@@ -73,13 +63,13 @@ namespace Wickfall.UI
 
         // ---------- Actions ----------
 
-        private void StartNewGame()
+        public void StartNewGame()
         {
             if (SceneFader.LoadSceneImmediately(levelOneScene) && mainGroup != null)
                 SetGroup(mainGroup, mainGroup.alpha, false);
         }
 
-        private void ContinueGame() => LoadLevelOne();
+        public void ContinueGame() => LoadLevelOne();
 
         private void LoadLevelOne()
         {
@@ -90,21 +80,21 @@ namespace Wickfall.UI
             }
         }
 
-        private void OpenSettings()
+        public void OpenSettings()
         {
             if (inSettings || SceneFader.IsFading) return;
             inSettings = true;
             Swap(mainGroup, settingsGroup, settingsMenu.FirstRow);
         }
 
-        private void CloseSettings()
+        public void CloseSettings()
         {
             if (!inSettings) return;
             inSettings = false;
             Swap(settingsGroup, mainGroup, settings);
         }
 
-        private void Quit()
+        public void Quit()
         {
             if (SceneFader.IsFading) return;
 #if UNITY_EDITOR
