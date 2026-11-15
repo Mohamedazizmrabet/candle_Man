@@ -1,6 +1,8 @@
 using UnityEngine;
 using Wickfall.Combat;
+using Wickfall.Core;
 using Wickfall.Core.Events;
+using Wickfall.UI;
 
 namespace Wickfall.Enemies
 {
@@ -47,7 +49,12 @@ namespace Wickfall.Enemies
             if (nowEngaged != engaged || !Mathf.Approximately(lastHealth, damageable.Health)) Report(nowEngaged);
         }
 
-        private void OnDied(DamageInfo hit) => Report(false);
+        private void OnDied(DamageInfo hit)
+        {
+            Report(false);
+            GameProgress.MarkWon();
+            VictoryScreen.ShowVictory();
+        }
 
         private void Report(bool isEngaged)
         {

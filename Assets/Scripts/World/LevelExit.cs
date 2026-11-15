@@ -22,7 +22,12 @@ namespace Wickfall.World
         {
             // Only the player's body (not his sword hitbox), and only once.
             if (used || other.isTrigger || !other.CompareTag("Player")) return;
-            if (SceneFader.FadeToScene(nextScene, fadeOutSeconds, fadeInSeconds)) used = true;
+            if (SceneFader.FadeToScene(nextScene, fadeOutSeconds, fadeInSeconds))
+            {
+                used = true;
+                // A return-to-menu exit does not replace the saved run position.
+                if (nextScene != "MainMenu") GameProgress.PrepareForLevel(nextScene);
+            }
         }
     }
 }

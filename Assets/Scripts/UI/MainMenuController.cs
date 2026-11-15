@@ -41,6 +41,7 @@ namespace Wickfall.UI
 
         private void Start()
         {
+            Time.timeScale = 1f;
             SetGroup(settingsGroup, 0f, false);
             SetGroup(mainGroup, 1f, true);
 
@@ -65,18 +66,17 @@ namespace Wickfall.UI
 
         public void StartNewGame()
         {
+            GameProgress.BeginNewGame();
             if (SceneFader.LoadSceneImmediately(levelOneScene) && mainGroup != null)
                 SetGroup(mainGroup, mainGroup.alpha, false);
         }
 
-        public void ContinueGame() => LoadLevelOne();
-
-        private void LoadLevelOne()
+        public void ContinueGame()
         {
-            // No double clicks while fading.
-            if (SceneFader.FadeToScene(levelOneScene, fadeOutSeconds, fadeInSeconds))
+            if (SceneFader.FadeToScene(GameProgress.ContinueScene, fadeOutSeconds, fadeInSeconds)
+                && mainGroup != null)
             {
-                if (mainGroup != null) SetGroup(mainGroup, mainGroup.alpha, false);
+                SetGroup(mainGroup, mainGroup.alpha, false);
             }
         }
 

@@ -3,6 +3,8 @@ using Wickfall.Combat;
 using Wickfall.Core;
 using Wickfall.Core.Events;
 using Wickfall.Data;
+using Wickfall.UI;
+using UnityEngine.SceneManagement;
 
 namespace Wickfall.Player
 {
@@ -106,8 +108,13 @@ namespace Wickfall.Player
                 return;
             }
 
+            Time.timeScale = 1f;
+            input.Paused = false;
             body = GetComponent<Rigidbody2D>();
-            respawnPoint = transform.position;
+            string sceneName = SceneManager.GetActiveScene().name;
+            respawnPoint = GameProgress.ResolveSpawn(sceneName, body.position);
+            body.position = respawnPoint;
+            transform.position = respawnPoint;
 
             Idle = new PlayerIdleState(this);
             Walk = new PlayerWalkState(this);
@@ -126,6 +133,7 @@ namespace Wickfall.Player
             }
 
             SetAttackHitbox(false);
+
         }
 
         private void OnEnable()
@@ -290,7 +298,11 @@ namespace Wickfall.Player
 
         private void OnExtinguished() => ChangeState(Extinguished);
 
-        private void OnBrazierRested(Vector3 point) => respawnPoint = point;
+        private void OnBrazierRested(Vector3 point)
+        {
+            respawnPoint = point;
+            GameProgress.SaveCheckpoint(SceneManager.GetActiveScene().name, point);
+        }
 
         // ---------- Helpers ----------
 
