@@ -45,7 +45,7 @@ namespace Wickfall.World
             if (hitbox != null && hitbox.gameObject.activeSelf != dangerous) hitbox.gameObject.SetActive(dangerous);
         }
 
-        /// <summary>Used by the level builder to make neighbouring traps fire one after another.</summary>
+        /// <summary>Shifts this trap's cycle so neighbouring traps fire one after another.</summary>
         public void SetPhase(float seconds) => phaseOffset = seconds;
     }
 }

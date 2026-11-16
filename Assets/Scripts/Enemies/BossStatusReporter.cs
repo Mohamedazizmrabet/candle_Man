@@ -52,7 +52,6 @@ namespace Wickfall.Enemies
         private void OnDied(DamageInfo hit)
         {
             Report(false);
-            GameProgress.MarkWon();
             VictoryScreen.ShowVictory();
         }
 

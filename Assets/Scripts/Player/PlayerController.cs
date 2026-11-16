@@ -111,10 +111,14 @@ namespace Wickfall.Player
             Time.timeScale = 1f;
             input.Paused = false;
             body = GetComponent<Rigidbody2D>();
-            string sceneName = SceneManager.GetActiveScene().name;
-            respawnPoint = GameProgress.ResolveSpawn(sceneName, body.position);
-            body.position = respawnPoint;
-            transform.position = respawnPoint;
+            // Start at the level's entrance, or at the brazier saved for Continue.
+            respawnPoint = body.position;
+            if (GameProgress.TryGetCheckpoint(SceneManager.GetActiveScene().name, out var checkpoint))
+            {
+                respawnPoint = checkpoint;
+                body.position = checkpoint;
+                transform.position = checkpoint;
+            }
 
             Idle = new PlayerIdleState(this);
             Walk = new PlayerWalkState(this);

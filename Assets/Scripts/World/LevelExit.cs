@@ -26,7 +26,7 @@ namespace Wickfall.World
             {
                 used = true;
                 // A return-to-menu exit does not replace the saved run position.
-                if (nextScene != "MainMenu") GameProgress.PrepareForLevel(nextScene);
+                if (nextScene != "MainMenu") GameProgress.EnterLevel(nextScene);
             }
         }
     }

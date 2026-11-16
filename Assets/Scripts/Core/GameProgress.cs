@@ -2,74 +2,64 @@ using UnityEngine;
 
 namespace Wickfall.Core
 {
-    /// <summary>Small persistent save for Continue: current scene and its start/checkpoint position.</summary>
+    /// <summary>
+    /// The save used by Continue: which level you reached and, if you rested at a brazier there, where.
+    /// Only the stairs (EnterLevel) and braziers (SaveCheckpoint) write it, so playing a test scene never changes it.
+    /// </summary>
     public static class GameProgress
     {
-        private const string HasProgressKey = "wickfall.progress.has";
+        private const string FirstLevel = "Level_01";
+
         private const string SceneKey = "wickfall.progress.scene";
-        private const string HasSpawnKey = "wickfall.progress.spawn.has";
-        private const string SpawnXKey = "wickfall.progress.spawn.x";
-        private const string SpawnYKey = "wickfall.progress.spawn.y";
-        private const string WonKey = "wickfall.progress.won";
+        private const string CheckpointXKey = "wickfall.progress.spawn.x";
+        private const string CheckpointYKey = "wickfall.progress.spawn.y";
 
-        public static bool HasWon => PlayerPrefs.GetInt(WonKey, 0) == 1;
-        public static string ContinueScene => HasProgress
-            ? PlayerPrefs.GetString(SceneKey, "Level_01")
-            : "Level_01";
+        /// <summary>The level Continue loads: the last one reached, or Level 1 if there is no save.</summary>
+        public static string ContinueScene
+        {
+            get
+            {
+                string scene = PlayerPrefs.GetString(SceneKey, FirstLevel);
+                // Ignore anything that is not a real level (an old save from a test scene, for example).
+                return scene.StartsWith("Level_") ? scene : FirstLevel;
+            }
+        }
 
-        private static bool HasProgress => PlayerPrefs.GetInt(HasProgressKey, 0) == 1;
-
-        /// <summary>Clears the old run before New Game loads its first level.</summary>
+        /// <summary>New Game: forget the old run.</summary>
         public static void BeginNewGame()
         {
-            PlayerPrefs.DeleteKey(HasProgressKey);
             PlayerPrefs.DeleteKey(SceneKey);
-            PlayerPrefs.DeleteKey(HasSpawnKey);
-            PlayerPrefs.DeleteKey(SpawnXKey);
-            PlayerPrefs.DeleteKey(SpawnYKey);
-            PlayerPrefs.DeleteKey(WonKey);
+            PlayerPrefs.DeleteKey(CheckpointXKey);
+            PlayerPrefs.DeleteKey(CheckpointYKey);
             PlayerPrefs.Save();
         }
 
-        /// <summary>Uses a saved checkpoint in this scene, or records the scene's authored player start.</summary>
-        public static Vector2 ResolveSpawn(string sceneName, Vector2 sceneStart)
+        /// <summary>Stairs: this is now the current level, starting from its entrance (no checkpoint yet).</summary>
+        public static void EnterLevel(string sceneName)
         {
-            if (HasProgress && PlayerPrefs.GetString(SceneKey, "") == sceneName
-                && PlayerPrefs.GetInt(HasSpawnKey, 0) == 1)
-            {
-                return new Vector2(PlayerPrefs.GetFloat(SpawnXKey), PlayerPrefs.GetFloat(SpawnYKey));
-            }
-
-            SaveCheckpoint(sceneName, sceneStart);
-            return sceneStart;
-        }
-
-        /// <summary>Records a new level as current; its P start is saved when the player spawns there.</summary>
-        public static void PrepareForLevel(string sceneName)
-        {
-            PlayerPrefs.SetInt(HasProgressKey, 1);
             PlayerPrefs.SetString(SceneKey, sceneName);
-            PlayerPrefs.SetInt(HasSpawnKey, 0);
+            PlayerPrefs.DeleteKey(CheckpointXKey);
+            PlayerPrefs.DeleteKey(CheckpointYKey);
             PlayerPrefs.Save();
         }
 
-        /// <summary>Saves a brazier's player respawn position for both death and Continue.</summary>
+        /// <summary>Brazier: respawn here after dying, and Continue here later.</summary>
         public static void SaveCheckpoint(string sceneName, Vector2 position)
         {
-            PlayerPrefs.SetInt(HasProgressKey, 1);
             PlayerPrefs.SetString(SceneKey, sceneName);
-            PlayerPrefs.SetInt(HasSpawnKey, 1);
-            PlayerPrefs.SetFloat(SpawnXKey, position.x);
-            PlayerPrefs.SetFloat(SpawnYKey, position.y);
+            PlayerPrefs.SetFloat(CheckpointXKey, position.x);
+            PlayerPrefs.SetFloat(CheckpointYKey, position.y);
             PlayerPrefs.Save();
         }
 
-        public static void MarkWon()
+        /// <summary>Player start: the saved checkpoint, if there is one in this level. Never writes.</summary>
+        public static bool TryGetCheckpoint(string sceneName, out Vector2 position)
         {
-            PlayerPrefs.SetInt(WonKey, 1);
-            PlayerPrefs.SetInt(HasProgressKey, 1);
-            PlayerPrefs.SetString(SceneKey, "Level_03");
-            PlayerPrefs.Save();
+            position = default;
+            if (PlayerPrefs.GetString(SceneKey, "") != sceneName || !PlayerPrefs.HasKey(CheckpointXKey)) return false;
+
+            position = new Vector2(PlayerPrefs.GetFloat(CheckpointXKey), PlayerPrefs.GetFloat(CheckpointYKey));
+            return true;
         }
     }
 }
